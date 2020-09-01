@@ -5,106 +5,117 @@
     <description>Jekyll template, Medium styled, free for bloggers.</description>
     <link>http://0.0.0.0:4000/mediumish-theme-jekyll/</link>
     <atom:link href="http://0.0.0.0:4000/mediumish-theme-jekyll/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 01 Sep 2020 16:29:27 -0500</pubDate>
-    <lastBuildDate>Tue, 01 Sep 2020 16:29:27 -0500</lastBuildDate>
+    <pubDate>Tue, 01 Sep 2020 16:40:38 -0500</pubDate>
+    <lastBuildDate>Tue, 01 Sep 2020 16:40:38 -0500</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
-        <title>Comandos De Vim</title>
-        <description>&lt;p&gt;Comandos simples de Vim&lt;/p&gt;
+        <title>Comandos simples de Vim</title>
+        <description>&lt;p&gt;&lt;strong&gt;Comandos simples de Vim&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;\1. Modo de inserción (En el que se puede escribir com en cualquier editor de textos normal)&lt;/p&gt;
-
-&lt;p&gt;\2. Modo de comandos (En el que se puede dar comandos al editor. Se accede al modo de comandos presionando ESC)&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Modo de inserción (En el que se puede escribir com en cualquier editor de textos normal)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Modo de comandos (En el que se puede dar comandos al editor. Se accede al modo de comandos presionando &lt;code class=&quot;highlighter-rouge&quot;&gt;ESC&lt;/code&gt;)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;p&gt;La mayoría de los siguientes comandos se dan en modo de comandos&lt;/p&gt;
 
-&lt;p&gt;​    x - para borrar caracter&lt;/p&gt;
+&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;x&lt;/code&gt; - para borrar caracter&lt;/p&gt;
 
-&lt;p&gt;​    u - deshace el último comando y U deshace la última línea&lt;/p&gt;
+&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;u&lt;/code&gt; - deshace el último comando y &lt;code class=&quot;highlighter-rouge&quot;&gt;U&lt;/code&gt; deshace la última línea&lt;/p&gt;
 
-&lt;p&gt;​    CTRL-R para rehacer (redo)&lt;/p&gt;
+&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;CTRL-R&lt;/code&gt; para rehacer (redo)&lt;/p&gt;
 
-&lt;p&gt;​    A - agregar texto al final&lt;/p&gt;
+&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;A&lt;/code&gt; - agregar texto al final&lt;/p&gt;
 
-&lt;p&gt;​    :wq - grabar y salir&lt;/p&gt;
+&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;:wq&lt;/code&gt; - grabar y salir&lt;/p&gt;
 
-&lt;p&gt;​    :q! - salir sin grabar&lt;/p&gt;
+&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;:q!&lt;/code&gt; - salir sin grabar&lt;/p&gt;
 
-&lt;p&gt;​    dw - mueve el cursor al inicio de la palabrapara borrar la palabra&lt;/p&gt;
+&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;dw&lt;/code&gt; - mueve el cursor al inicio de la palabrapara borrar la palabra&lt;/p&gt;
 
-&lt;p&gt;​    2w - mueve el cursor 2 palabras hacia adelante&lt;/p&gt;
+&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;2w&lt;/code&gt; - mueve el cursor 2 palabras hacia adelante&lt;/p&gt;
 
-&lt;p&gt;​    3e - mueve el cursor al final de la tercera palabra hacia adelante&lt;/p&gt;
+&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;3e&lt;/code&gt; - mueve el cursor al final de la tercera palabra hacia adelante&lt;/p&gt;
 
-&lt;p&gt;​    0 (cero) - mueve el cursor al inicio de la línea&lt;/p&gt;
+&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;0&lt;/code&gt; (cero) - mueve el cursor al inicio de la línea&lt;/p&gt;
 
-&lt;p&gt;​    d2w - borra 2 palabras, se puede cambiar el número para borrar la cantidd de palabras consecutivas, ej. d3w&lt;/p&gt;
+&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;d2w&lt;/code&gt; - borra 2 palabras, se puede cambiar el número para borrar la cantidd de palabras consecutivas, ej. &lt;code class=&quot;highlighter-rouge&quot;&gt;d3w&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;​    dd - borra la línea actual y 2dd borra 2 líneas consecutivas&lt;/p&gt;
+&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;dd&lt;/code&gt; - borra la línea actual y &lt;code class=&quot;highlighter-rouge&quot;&gt;2dd&lt;/code&gt; borra 2 líneas consecutivas&lt;/p&gt;
 
-&lt;p&gt;El formato para un comando de cambio es: operador [número] acción&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;El formato para un comando de cambio es: &lt;code class=&quot;highlighter-rouge&quot;&gt;operador [número] acción&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;operador&lt;/strong&gt; - es lo que se desea hacer, tal como d para borrar (delete)&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;[número]&lt;/strong&gt; - es un contador opcional para repetir la acción&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;acción&lt;/strong&gt; - actúa sobre el texto a modificar, tal como w para palabra (word), $ para fin de línea, etc.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;acción&lt;/strong&gt; - actúa sobre el texto a modificar, tal como &lt;code class=&quot;highlighter-rouge&quot;&gt;w&lt;/code&gt; para palabra (word), &lt;code class=&quot;highlighter-rouge&quot;&gt;$&lt;/code&gt; para fin de línea, etc.&lt;/p&gt;
 
-&lt;p&gt;​    p - pega el texto previamente borrado después del cursor (pulsa dd para borrar la línea y almacenbarla en un registro de Vim, y usa el comando p para pegar la línea)&lt;/p&gt;
+&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;p&lt;/code&gt; - pega el texto previamente borrado después del cursor (pulsa dd para borrar la línea y almacenbarla en un registro de Vim, y usa el comando p para pegar la línea)&lt;/p&gt;
 
-&lt;p&gt;​    r - reemplaza la letra, ej. teclea re para reemplazar la letra con e&lt;/p&gt;
+&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;r&lt;/code&gt; - reemplaza la letra, ej. teclea re para reemplazar la letra con e&lt;/p&gt;
 
-&lt;p&gt;​    ce - cambia hasta el final de la palabra (ej., con el cursor en la u de lubw, borrará ubw)&lt;/p&gt;
+&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;ce&lt;/code&gt; - cambia hasta el final de la palabra (ej., con el cursor en la u de lubw, borrará ubw)&lt;/p&gt;
 
-&lt;p&gt;​    ce - borra la palabra y deja en modo de inserción&lt;/p&gt;
+&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;ce&lt;/code&gt; - borra la palabra y deja en modo de inserción&lt;/p&gt;
 
-&lt;p&gt;​    G - mueve el cursor al final del archivo&lt;/p&gt;
+&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;G&lt;/code&gt; - mueve el cursor al final del archivo&lt;/p&gt;
 
-&lt;p&gt;​    gg - mueve el cursor al inicio del archivo&lt;/p&gt;
+&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;gg&lt;/code&gt; - mueve el cursor al inicio del archivo&lt;/p&gt;
 
-&lt;p&gt;​    :n - ir a la línea n&lt;/p&gt;
+&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;:n&lt;/code&gt; - ir a la línea n&lt;/p&gt;
 
-&lt;p&gt;​    /texto - buscar texto, n repite la búsqueda&lt;/p&gt;
+&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;/texto&lt;/code&gt; - buscar texto, n repite la búsqueda&lt;/p&gt;
 
-&lt;p&gt;​    :s/texto/nuevoTexto/g - reemplaza texto por nuevoTexto global en el archivo (g)&lt;/p&gt;
+&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;:s/texto/nuevoTexto/g&lt;/code&gt; - reemplaza texto por nuevoTexto global en el archivo (g)&lt;/p&gt;
 
-&lt;p&gt;​    ? búsqueda hacia atrás&lt;/p&gt;
+&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;?&lt;/code&gt; búsqueda hacia atrás&lt;/p&gt;
 
-&lt;p&gt;​    :! para ejecutar comandos de shell, ej. :!ls&lt;/p&gt;
+&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;:!&lt;/code&gt; para ejecutar comandos de shell, ej. :!ls&lt;/p&gt;
 
-&lt;p&gt;​    :w - guarda el archivo&lt;/p&gt;
+&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;:w&lt;/code&gt; - guarda el archivo&lt;/p&gt;
 
-&lt;p&gt;​    v - inicia el modo visual para seleccionar líneas y ejecutar operaciones como d (delete)&lt;/p&gt;
+&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;v&lt;/code&gt; - inicia el modo visual para seleccionar líneas y ejecutar operaciones como d (delete)&lt;/p&gt;
 
-&lt;p&gt;​    :r - nombreDeArchivo inserta el contenido del archivo en el archivo actual&lt;/p&gt;
+&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;:r&lt;/code&gt; - nombreDeArchivo inserta el contenido del archivo en el archivo actual&lt;/p&gt;
 
-&lt;p&gt;​    R - reemplaza más de un caracter&lt;/p&gt;
+&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;R&lt;/code&gt; - reemplaza más de un caracter&lt;/p&gt;
 
-&lt;p&gt;​    y - comando para copiar texto en modo visual y p para pegarlo&lt;/p&gt;
+&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;y&lt;/code&gt; - comando para copiar texto en modo visual y p para pegarlo&lt;/p&gt;
 
-&lt;p&gt;​    o - inserta una línea abajo del cursor e inicia el modo de inserción7&lt;/p&gt;
+&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;o&lt;/code&gt; - inserta una línea abajo del cursor e inicia el modo de inserción7&lt;/p&gt;
 
-&lt;p&gt;​    O - inserta una línea arriba del cursor&lt;/p&gt;
+&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;O&lt;/code&gt; - inserta una línea arriba del cursor&lt;/p&gt;
 
-&lt;p&gt;​    a - abre el modo de inserción después del cursor&lt;/p&gt;
+&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;a&lt;/code&gt; - abre el modo de inserción después del cursor&lt;/p&gt;
 
-&lt;p&gt;​    A - abre el modo deo inserción al final de la línea&lt;/p&gt;
+&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;A&lt;/code&gt; - abre el modo deo inserción al final de la línea&lt;/p&gt;
 
-&lt;p&gt;​    e - mueve el cursor al final de la palabra&lt;/p&gt;
+&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;e&lt;/code&gt; - mueve el cursor al final de la palabra&lt;/p&gt;
 
-&lt;p&gt;​    y - copia el texto, p pega el texto&lt;/p&gt;
+&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;y&lt;/code&gt; - copia el texto, p pega el texto&lt;/p&gt;
 
-&lt;p&gt;​    R - inicia el modo Replace (Reemplazar) hasta que se presione ESC&lt;/p&gt;
+&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;R&lt;/code&gt; - inicia el modo Replace (Reemplazar) hasta que se presione ESC&lt;/p&gt;
 
-&lt;p&gt;​    ctrl - w salta entre ventanas&lt;/p&gt;
+&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;ctrl-w&lt;/code&gt; salta entre ventanas&lt;/p&gt;
 
-&lt;p&gt;Para ver todos los comandos que inicien con una letra, escribir :e y presionar ctrl+D, después presionr TAB para completar el comando.&lt;/p&gt;
+&lt;p&gt;Para ver todos los comandos que inicien con una letra, escribir &lt;code class=&quot;highlighter-rouge&quot;&gt;:e&lt;/code&gt; y presionar &lt;code class=&quot;highlighter-rouge&quot;&gt;ctrl+D&lt;/code&gt;, después presionr &lt;code class=&quot;highlighter-rouge&quot;&gt;TAB&lt;/code&gt; para completar el comando.&lt;/p&gt;
 </description>
         <pubDate>Tue, 01 Sep 2020 00:00:00 -0500</pubDate>
         <link>http://0.0.0.0:4000/mediumish-theme-jekyll/Comandos-de-vim/</link>
         <guid isPermaLink="true">http://0.0.0.0:4000/mediumish-theme-jekyll/Comandos-de-vim/</guid>
         
+        
+        <category>linux</category>
+        
+        <category>tutorial</category>
         
       </item>
     

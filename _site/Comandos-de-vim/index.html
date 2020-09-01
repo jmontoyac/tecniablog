@@ -1,89 +1,507 @@
-<p>Comandos simples de Vim</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<p>\1. Modo de inserción (En el que se puede escribir com en cualquier editor de textos normal)</p>
+<link rel="icon" href="/mediumish-theme-jekyll/assets/images/logo.png">
 
-<p>\2. Modo de comandos (En el que se puede dar comandos al editor. Se accede al modo de comandos presionando ESC)</p>
+<title>Comandos simples de Vim | Mediumish</title>
+
+<!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Comandos simples de Vim | Mediumish</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Comandos simples de Vim" />
+<meta name="author" content="jay" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Comandos simples de Vim" />
+<meta property="og:description" content="Comandos simples de Vim" />
+<link rel="canonical" href="http://0.0.0.0:4000/mediumish-theme-jekyll/Comandos-de-vim/" />
+<meta property="og:url" content="http://0.0.0.0:4000/mediumish-theme-jekyll/Comandos-de-vim/" />
+<meta property="og:site_name" content="Mediumish" />
+<meta property="og:image" content="http://0.0.0.0:4000/mediumish-theme-jekyll/assets/images/vim.jpg" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-09-01T00:00:00-05:00" />
+<script type="application/ld+json">
+{"description":"Comandos simples de Vim","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://0.0.0.0:4000/mediumish-theme-jekyll/assets/images/logo.png"},"name":"jay"},"url":"http://0.0.0.0:4000/mediumish-theme-jekyll/Comandos-de-vim/","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://0.0.0.0:4000/mediumish-theme-jekyll/Comandos-de-vim/"},"image":"http://0.0.0.0:4000/mediumish-theme-jekyll/assets/images/vim.jpg","author":{"@type":"Person","name":"jay"},"headline":"Comandos simples de Vim","dateModified":"2020-09-01T00:00:00-05:00","datePublished":"2020-09-01T00:00:00-05:00","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+<link href="/mediumish-theme-jekyll/assets/css/screen.css" rel="stylesheet">
+
+<link href="/mediumish-theme-jekyll/assets/css/main.css" rel="stylesheet">
+
+<script src="/mediumish-theme-jekyll/assets/js/jquery.min.js"></script>
+
+</head>
+
+
+
+
+<body class="layout-post">
+	<!-- defer loading of font and font awesome -->
+	<noscript id="deferred-styles">
+		<link href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	</noscript>
+
+
+<!-- Begin Menu Navigation
+================================================== -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top mediumnavigation nav-down">
+
+    <div class="container pr-0">
+
+    <!-- Begin Logo -->
+    <a class="navbar-brand" href="/mediumish-theme-jekyll/">
+    <img src="/mediumish-theme-jekyll/assets/images/logo.png" alt="Mediumish">
+    </a>
+    <!-- End Logo -->
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMediumish" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarMediumish">
+
+        <!-- Begin Menu -->
+
+            <ul class="navbar-nav ml-auto">
+
+                
+                <li class="nav-item">
+                
+                <a class="nav-link" href="/mediumish-theme-jekyll/index.html">Blog</a>
+                </li>
+
+                <li class="nav-item">
+                <a class="nav-link" href="/mediumish-theme-jekyll/about">About</a>
+                </li>
+
+                <li class="nav-item">
+                <a target="_blank" class="nav-link" href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/"> Docs</a>
+                </li>
+
+                <li class="nav-item">
+                <a target="_blank" class="nav-link" href="https://www.wowthemes.net/themes/mediumish-wordpress/"><i class="fab fa-wordpress-simple"></i> WP Version</a>
+                </li>
+
+                <li class="nav-item">
+                <a target="_blank" class="nav-link" href="https://www.wowthemes.net/themes/mediumish-ghost/"><i class="fab fa-snapchat-ghost"></i> Ghost Version</a>
+                </li>
+
+                <li class="nav-item">
+                <a target="_blank" class="nav-link" href="https://github.com/wowthemesnet/mediumish-theme-jekyll"><i class="fab fa-github"></i> Fork on Github</a>
+                </li>
+
+                <script src="/mediumish-theme-jekyll/assets/js/lunr.js"></script>
+
+
+<style>
+    .lunrsearchresult .title {color: #d9230f;}
+    .lunrsearchresult .url {color: silver;}
+    .lunrsearchresult a {display: block; color: #777;}
+    .lunrsearchresult a:hover, .lunrsearchresult a:focus {text-decoration: none;}
+    .lunrsearchresult a:hover .title {text-decoration: underline;}
+</style>
+
+
+<form class="bd-search" onSubmit="return lunr_search(document.getElementById('lunrsearch').value);">
+    <input type="text" class="form-control text-small launch-modal-search" id="lunrsearch" name="q" maxlength="255" value="" placeholder="Type and enter..."/>
+</form>
+
+<div id="lunrsearchresults">
+    <ul></ul>
+</div>
+
+<script src="/mediumish-theme-jekyll/assets/js/lunrsearchengine.js"></script>
+
+            </ul>
+
+        <!-- End Menu -->
+
+    </div>
+
+    </div>
+</nav>
+<!-- End Navigation
+================================================== -->
+
+<div class="site-content">
+
+<div class="container">
+
+<!-- Site Title
+================================================== -->
+<div class="mainheading">
+    <h1 class="sitetitle">Mediumish</h1>
+    <p class="lead">
+        Jekyll template, Medium styled, free for bloggers.
+    </p>
+</div>
+
+<!-- Content
+================================================== -->
+<div class="main-content">
+    <!-- Begin Article
+================================================== -->
+<div class="container">
+    <div class="row">
+
+        <!-- Post Share -->
+        <div class="col-md-2 pl-0">
+            <div class="share sticky-top sticky-top-offset">
+    <p>
+        Share
+    </p>
+    <ul>
+        <li class="ml-1 mr-1">
+            <a target="_blank" href="https://twitter.com/intent/tweet?text=Comandos simples de Vim&url=http://0.0.0.0:4000/mediumish-theme-jekyll/Comandos-de-vim/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </li>
+
+        <li class="ml-1 mr-1">
+            <a target="_blank" href="https://facebook.com/sharer.php?u=http://0.0.0.0:4000/mediumish-theme-jekyll/Comandos-de-vim/" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+        </li>
+
+        <li class="ml-1 mr-1">
+            <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=http://0.0.0.0:4000/mediumish-theme-jekyll/Comandos-de-vim/" onclick="window.open(this.href, 'width=550,height=435');return false;">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+        </li>
+
+    </ul>
+    
+    <div class="sep">
+    </div>
+    <ul>
+        <li>
+        <a class="small smoothscroll" href="#disqus_thread"></a>
+        </li>
+    </ul>
+    
+</div>
+
+        </div>
+
+        <!-- Post -->
+        
+
+        <div class="col-md-9 flex-first flex-md-unordered">
+            <div class="mainheading">
+
+                <!-- Author Box -->
+                
+                <div class="row post-top-meta">
+                    <div class="col-xs-12 col-md-3 col-lg-2 text-center text-md-left mb-4 mb-md-0">
+                        
+                        <img class="author-thumb" src="https://www.gravatar.com/avatar/?s=250&d=mm&r=x" alt="">
+                        
+                    </div>
+                    <div class="col-xs-12 col-md-9 col-lg-10 text-center text-md-left">
+                        <a target="_blank" class="link-dark" href=""></a><a target="_blank" href="" class="btn follow">Follow</a>
+                        <span class="author-description"></span>
+                    </div>
+                </div>
+                
+
+                <!-- Post Title -->
+                <h1 class="posttitle">Comandos simples de Vim</h1>
+
+            </div>
+
+            <!-- Adsense if enabled from _config.yml (change your pub id and slot) -->
+            
+            <!-- End Adsense -->
+
+            <!-- Post Featured Image -->
+            
+
+            
+            <img class="featured-image img-fluid" src="/mediumish-theme-jekyll/assets/images/vim.jpg" alt="Comandos simples de Vim">
+            
+
+            
+            <!-- End Featured Image -->
+
+            <!-- Post Content -->
+            <div class="article-post">
+                <!-- Toc if any -->
+                
+                <!-- End Toc -->
+                <p><strong>Comandos simples de Vim</strong></p>
+
+<ol>
+  <li>
+    <p>Modo de inserción (En el que se puede escribir com en cualquier editor de textos normal)</p>
+  </li>
+  <li>
+    <p>Modo de comandos (En el que se puede dar comandos al editor. Se accede al modo de comandos presionando <code class="highlighter-rouge">ESC</code>)</p>
+  </li>
+</ol>
 
 <p>La mayoría de los siguientes comandos se dan en modo de comandos</p>
 
-<p>​    x - para borrar caracter</p>
+<p>​    <code class="highlighter-rouge">x</code> - para borrar caracter</p>
 
-<p>​    u - deshace el último comando y U deshace la última línea</p>
+<p>​    <code class="highlighter-rouge">u</code> - deshace el último comando y <code class="highlighter-rouge">U</code> deshace la última línea</p>
 
-<p>​    CTRL-R para rehacer (redo)</p>
+<p>​    <code class="highlighter-rouge">CTRL-R</code> para rehacer (redo)</p>
 
-<p>​    A - agregar texto al final</p>
+<p>​    <code class="highlighter-rouge">A</code> - agregar texto al final</p>
 
-<p>​    :wq - grabar y salir</p>
+<p>​    <code class="highlighter-rouge">:wq</code> - grabar y salir</p>
 
-<p>​    :q! - salir sin grabar</p>
+<p>​    <code class="highlighter-rouge">:q!</code> - salir sin grabar</p>
 
-<p>​    dw - mueve el cursor al inicio de la palabrapara borrar la palabra</p>
+<p>​    <code class="highlighter-rouge">dw</code> - mueve el cursor al inicio de la palabrapara borrar la palabra</p>
 
-<p>​    2w - mueve el cursor 2 palabras hacia adelante</p>
+<p>​    <code class="highlighter-rouge">2w</code> - mueve el cursor 2 palabras hacia adelante</p>
 
-<p>​    3e - mueve el cursor al final de la tercera palabra hacia adelante</p>
+<p>​    <code class="highlighter-rouge">3e</code> - mueve el cursor al final de la tercera palabra hacia adelante</p>
 
-<p>​    0 (cero) - mueve el cursor al inicio de la línea</p>
+<p>​    <code class="highlighter-rouge">0</code> (cero) - mueve el cursor al inicio de la línea</p>
 
-<p>​    d2w - borra 2 palabras, se puede cambiar el número para borrar la cantidd de palabras consecutivas, ej. d3w</p>
+<p>​    <code class="highlighter-rouge">d2w</code> - borra 2 palabras, se puede cambiar el número para borrar la cantidd de palabras consecutivas, ej. <code class="highlighter-rouge">d3w</code></p>
 
-<p>​    dd - borra la línea actual y 2dd borra 2 líneas consecutivas</p>
+<p>​    <code class="highlighter-rouge">dd</code> - borra la línea actual y <code class="highlighter-rouge">2dd</code> borra 2 líneas consecutivas</p>
 
-<p>El formato para un comando de cambio es: operador [número] acción</p>
+<hr />
+
+<p>El formato para un comando de cambio es: <code class="highlighter-rouge">operador [número] acción</code></p>
 
 <p><strong>operador</strong> - es lo que se desea hacer, tal como d para borrar (delete)</p>
 
 <p><strong>[número]</strong> - es un contador opcional para repetir la acción</p>
 
-<p><strong>acción</strong> - actúa sobre el texto a modificar, tal como w para palabra (word), $ para fin de línea, etc.</p>
+<p><strong>acción</strong> - actúa sobre el texto a modificar, tal como <code class="highlighter-rouge">w</code> para palabra (word), <code class="highlighter-rouge">$</code> para fin de línea, etc.</p>
 
-<p>​    p - pega el texto previamente borrado después del cursor (pulsa dd para borrar la línea y almacenbarla en un registro de Vim, y usa el comando p para pegar la línea)</p>
+<p>​    <code class="highlighter-rouge">p</code> - pega el texto previamente borrado después del cursor (pulsa dd para borrar la línea y almacenbarla en un registro de Vim, y usa el comando p para pegar la línea)</p>
 
-<p>​    r - reemplaza la letra, ej. teclea re para reemplazar la letra con e</p>
+<p>​    <code class="highlighter-rouge">r</code> - reemplaza la letra, ej. teclea re para reemplazar la letra con e</p>
 
-<p>​    ce - cambia hasta el final de la palabra (ej., con el cursor en la u de lubw, borrará ubw)</p>
+<p>​    <code class="highlighter-rouge">ce</code> - cambia hasta el final de la palabra (ej., con el cursor en la u de lubw, borrará ubw)</p>
 
-<p>​    ce - borra la palabra y deja en modo de inserción</p>
+<p>​    <code class="highlighter-rouge">ce</code> - borra la palabra y deja en modo de inserción</p>
 
-<p>​    G - mueve el cursor al final del archivo</p>
+<p>​    <code class="highlighter-rouge">G</code> - mueve el cursor al final del archivo</p>
 
-<p>​    gg - mueve el cursor al inicio del archivo</p>
+<p>​    <code class="highlighter-rouge">gg</code> - mueve el cursor al inicio del archivo</p>
 
-<p>​    :n - ir a la línea n</p>
+<p>​    <code class="highlighter-rouge">:n</code> - ir a la línea n</p>
 
-<p>​    /texto - buscar texto, n repite la búsqueda</p>
+<p>​    <code class="highlighter-rouge">/texto</code> - buscar texto, n repite la búsqueda</p>
 
-<p>​    :s/texto/nuevoTexto/g - reemplaza texto por nuevoTexto global en el archivo (g)</p>
+<p>​    <code class="highlighter-rouge">:s/texto/nuevoTexto/g</code> - reemplaza texto por nuevoTexto global en el archivo (g)</p>
 
-<p>​    ? búsqueda hacia atrás</p>
+<p>​    <code class="highlighter-rouge">?</code> búsqueda hacia atrás</p>
 
-<p>​    :! para ejecutar comandos de shell, ej. :!ls</p>
+<p>​    <code class="highlighter-rouge">:!</code> para ejecutar comandos de shell, ej. :!ls</p>
 
-<p>​    :w - guarda el archivo</p>
+<p>​    <code class="highlighter-rouge">:w</code> - guarda el archivo</p>
 
-<p>​    v - inicia el modo visual para seleccionar líneas y ejecutar operaciones como d (delete)</p>
+<p>​    <code class="highlighter-rouge">v</code> - inicia el modo visual para seleccionar líneas y ejecutar operaciones como d (delete)</p>
 
-<p>​    :r - nombreDeArchivo inserta el contenido del archivo en el archivo actual</p>
+<p>​    <code class="highlighter-rouge">:r</code> - nombreDeArchivo inserta el contenido del archivo en el archivo actual</p>
 
-<p>​    R - reemplaza más de un caracter</p>
+<p>​    <code class="highlighter-rouge">R</code> - reemplaza más de un caracter</p>
 
-<p>​    y - comando para copiar texto en modo visual y p para pegarlo</p>
+<p>​    <code class="highlighter-rouge">y</code> - comando para copiar texto en modo visual y p para pegarlo</p>
 
-<p>​    o - inserta una línea abajo del cursor e inicia el modo de inserción7</p>
+<p>​    <code class="highlighter-rouge">o</code> - inserta una línea abajo del cursor e inicia el modo de inserción7</p>
 
-<p>​    O - inserta una línea arriba del cursor</p>
+<p>​    <code class="highlighter-rouge">O</code> - inserta una línea arriba del cursor</p>
 
-<p>​    a - abre el modo de inserción después del cursor</p>
+<p>​    <code class="highlighter-rouge">a</code> - abre el modo de inserción después del cursor</p>
 
-<p>​    A - abre el modo deo inserción al final de la línea</p>
+<p>​    <code class="highlighter-rouge">A</code> - abre el modo deo inserción al final de la línea</p>
 
-<p>​    e - mueve el cursor al final de la palabra</p>
+<p>​    <code class="highlighter-rouge">e</code> - mueve el cursor al final de la palabra</p>
 
-<p>​    y - copia el texto, p pega el texto</p>
+<p>​    <code class="highlighter-rouge">y</code> - copia el texto, p pega el texto</p>
 
-<p>​    R - inicia el modo Replace (Reemplazar) hasta que se presione ESC</p>
+<p>​    <code class="highlighter-rouge">R</code> - inicia el modo Replace (Reemplazar) hasta que se presione ESC</p>
 
-<p>​    ctrl - w salta entre ventanas</p>
+<p>​    <code class="highlighter-rouge">ctrl-w</code> salta entre ventanas</p>
 
-<p>Para ver todos los comandos que inicien con una letra, escribir :e y presionar ctrl+D, después presionr TAB para completar el comando.</p>
+<p>Para ver todos los comandos que inicien con una letra, escribir <code class="highlighter-rouge">:e</code> y presionar <code class="highlighter-rouge">ctrl+D</code>, después presionr <code class="highlighter-rouge">TAB</code> para completar el comando.</p>
+
+            </div>
+
+            <!-- Rating -->
+            
+
+            <!-- Post Date -->
+            <p>
+            <small>
+                <span class="post-date"><time class="post-date" datetime="2020-09-01">01 Sep 2020</time></span>           
+                
+                </small>
+            </p>
+
+            <!-- Post Categories -->
+            <div class="after-post-cats">
+                <ul class="tags mb-4">
+                    
+                    
+                    <li>
+                        <a class="smoothscroll" href="/mediumish-theme-jekyll/categories#linux">linux</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/mediumish-theme-jekyll/categories#tutorial">tutorial</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            <!-- End Categories -->
+
+            <!-- Post Tags -->
+            <div class="after-post-tags">
+                <ul class="tags">
+                    
+                    
+                </ul>
+            </div>
+            <!-- End Tags -->
+
+            <!-- Prev/Next -->
+            <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
+            
+            <a class="prev d-block col-md-6" href="/mediumish-theme-jekyll//abrir-puertos-en-linux/"> &laquo; Cómo abrir puertos en Linux</a>
+            
+            
+            <div class="clearfix"></div>
+            </div>
+            <!-- End Categories -->
+
+        </div>
+        <!-- End Post -->
+
+    </div>
+</div>
+<!-- End Article
+================================================== -->
+
+<!-- Begin Comments
+================================================== -->
+
+    <div class="container">
+        <div id="comments" class="row justify-content-center mb-5">
+            <div class="col-md-8">
+                <section class="disqus">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'demowebsite'; 
+        var disqus_developer = 0;
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = window.location.protocol + '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+
+            </div>
+        </div>
+    </div>
+
+<!--End Comments
+================================================== -->
+
+<!-- Review with LD-JSON, adapt it for your needs if you like, but make sure you test the generated HTML source code first: 
+https://search.google.com/structured-data/testing-tool/u/0/
+================================================== -->
+
+</div>
+
+
+<!-- Bottom Alert Bar
+================================================== -->
+<div class="alertbar">
+	<div class="container text-center">
+		<span><img src="/mediumish-theme-jekyll/assets/images/logo.png" alt="Mediumish"> &nbsp; Never miss a <b>story</b> from us, subscribe to our newsletter</span>
+        <form action="https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate" target="_blank" novalidate>
+            <div class="mc-field-group">
+            <input type="email" placeholder="Email" name="EMAIL" class="required email" id="mce-EMAIL" autocomplete="on" required>
+            <input type="submit" value="Subscribe" name="subscribe" class="heart">
+            </div>
+        </form>
+	</div>
+</div>
+
+    
+</div>
+
+<!-- Categories Jumbotron
+================================================== -->
+<div class="jumbotron fortags">
+	<div class="d-md-flex h-100">
+		<div class="col-md-4 transpdark align-self-center text-center h-100">
+            <div class="d-md-flex align-items-center justify-content-center h-100">
+                <h2 class="d-md-block align-self-center py-1 font-weight-light">Explore <span class="d-none d-md-inline">→</span></h2>
+            </div>
+		</div>
+		<div class="col-md-8 p-5 align-self-center text-center">
+            
+            
+                
+                    <a class="mt-1 mb-1" href="/mediumish-theme-jekyll/categories#Jekyll">Jekyll (14)</a>
+                
+                    <a class="mt-1 mb-1" href="/mediumish-theme-jekyll/categories#tutorial">tutorial (14)</a>
+                
+                    <a class="mt-1 mb-1" href="/mediumish-theme-jekyll/categories#web-development">web development (1)</a>
+                
+                    <a class="mt-1 mb-1" href="/mediumish-theme-jekyll/categories#linux">linux (2)</a>
+                
+            
+            
+		</div>
+	</div>
+</div>
+
+<!-- Begin Footer
+================================================== -->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-6 text-center text-lg-left">
+                Copyright © 2020 Mediumish 
+            </div>
+            <div class="col-md-6 col-sm-6 text-center text-lg-right">    
+                <a target="_blank" href="https://www.wowthemes.net/mediumish-free-jekyll-template/">Mediumish Jekyll Theme</a> by WowThemes.net
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- End Footer
+================================================== -->
+
+</div> <!-- /.site-content -->
+
+<!-- Scripts
+================================================== -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+<script src="/mediumish-theme-jekyll/assets/js/mediumish.js"></script>
+
+
+
+<script src="/mediumish-theme-jekyll/assets/js/ie10-viewport-bug-workaround.js"></script> 
+
+
+<script id="dsq-count-scr" src="//demowebsite.disqus.com/count.js"></script>
+
+
+</body>
+</html>

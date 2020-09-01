@@ -5,8 +5,8 @@
     <description>Jekyll template, Medium styled, free for bloggers.</description>
     <link>http://0.0.0.0:4000/mediumish-theme-jekyll/</link>
     <atom:link href="http://0.0.0.0:4000/mediumish-theme-jekyll/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 01 Sep 2020 16:42:55 -0500</pubDate>
-    <lastBuildDate>Tue, 01 Sep 2020 16:42:55 -0500</lastBuildDate>
+    <pubDate>Tue, 01 Sep 2020 16:57:43 -0500</pubDate>
+    <lastBuildDate>Tue, 01 Sep 2020 16:57:43 -0500</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -121,9 +121,7 @@
     
       <item>
         <title>Cómo abrir puertos en Linux</title>
-        <description>&lt;p&gt;brav&lt;/p&gt;
-
-&lt;p&gt;Para abrir puertos en sistemas  Linux RedHat  y derivados, como  CentOS 7  lo podemos hacer por medio del firewall que viene con estos sistemas, que es &lt;em&gt;firewall-cmd&lt;/em&gt;.&lt;/p&gt;
+        <description>&lt;p&gt;Para abrir puertos en sistemas  Linux RedHat  y derivados, como  CentOS 7  lo podemos hacer por medio del firewall que viene con estos sistemas, que es &lt;em&gt;firewall-cmd&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;Como primer ejemplo, de la siguiente manera se agrega el puerto 443 por protocolo TCP de manera temporal, lo que significa que esta configuración no se mantendrá después de un reinicio de la máquina o de una recarga del servicio de firewall.&lt;/p&gt;
 &lt;pre class=&quot;wp-block-preformatted&quot;&gt;#  firewall-cmd --zone=public --add-port=443/tcp 
@@ -325,26 +323,6 @@ success&lt;/pre&gt;
         <category>Jekyll</category>
         
         <category>tutorial</category>
-        
-      </item>
-    
-      <item>
-        <title>Never stopped worrying or loving the bomb</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;I’ve been through fire and water, I tell you! From my earliest pebblehood the wildest things you could imagine have been happening to this world of ours, and I have been right in the midst of them.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;So begins Hallam Hawksworth’s The Strange Adventures of a Pebble. Written in the 1920s, the book was part of a series which also included The Adventures of a Grain of Dust and A Year in the Wonderland of Trees, all of which were supposed to introduce children to the world of Natural Sciences. In each of them, Hawksworth personifies the natural object he is exploring, and using a mixture of folk tales, scientific facts and colloquial, friendly explanations guides the reader through the history of the natural world. It’s a real thrill of a ride, dramatizing the life cycle of supposedly dull things. The Adventures of a Grain of Dust begins even more loudly than Pebble:&lt;/p&gt;
-
-&lt;p&gt;I don’t want you to think that I’m boasting, but I do believe I’m one of the greatest travellers that ever was; and if anybody, living or dead, has ever gone through with more than I have I’d like to hear about it.
-Hallam Hawksworth was the pen-name of teacher Francis Blake Atkinson. He was married to the author Eleanor Stackhouse Atkinson, author of the children’s classic Greyfriars Bobby, which was based on the (supposedly) true story of a Scottish dog who spent fourteen years guarding his masters grave. The couple were both committed to education and published a weekly magazine for Chicago high school students called The Little Chronicle, as well as working for Encyclopaedia companies later in life.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 12 Jan 2018 00:00:00 -0600</pubDate>
-        <link>http://0.0.0.0:4000/mediumish-theme-jekyll/never-stopped-worrying-never-loved-bomb/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/mediumish-theme-jekyll/never-stopped-worrying-never-loved-bomb/</guid>
-        
-        
-        <category>Jekyll</category>
         
       </item>
     

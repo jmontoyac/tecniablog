@@ -7,7 +7,6 @@ image: assets/images/puertos.jpg
 featured: true
 hidden: true
 ---
-brav
  
  Para abrir puertos en sistemas  Linux RedHat  y derivados, como  CentOS 7  lo podemos hacer por medio del firewall que viene con estos sistemas, que es <em>firewall-cmd</em>.
 

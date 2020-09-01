@@ -1,7 +1,7 @@
 # Site
-name: "Mediumish"
-title: "Mediumish"
-description: "Jekyll template, Medium styled, free for bloggers."
+name: "Tecniablog"
+title: "Tecniablog"
+description: "Notas de programación, Linux, DevOps"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: /
@@ -16,12 +16,12 @@ authors:
   jay:
     name: Jay
     display_name: Jay
-    avatar: 'assets/images/avatar.png'
+    avatar: https://avatars1.githubusercontent.com/u/11711544?s=400&v=4
     gravatar: 49510f2a2c1b780cdd29da790028e6b9
     email: jmontoyac@gmail.com
     web: 
     twitter: https://twitter.com/jmontoyarib
-    description: "This is"
+    description: "Notas de programación, Linux, DevOps"
 
 # Plugins
 plugins:

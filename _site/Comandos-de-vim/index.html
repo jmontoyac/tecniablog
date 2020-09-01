@@ -1,0 +1,89 @@
+<p>Comandos simples de Vim</p>
+
+<p>\1. Modo de inserción (En el que se puede escribir com en cualquier editor de textos normal)</p>
+
+<p>\2. Modo de comandos (En el que se puede dar comandos al editor. Se accede al modo de comandos presionando ESC)</p>
+
+<p>La mayoría de los siguientes comandos se dan en modo de comandos</p>
+
+<p>​    x - para borrar caracter</p>
+
+<p>​    u - deshace el último comando y U deshace la última línea</p>
+
+<p>​    CTRL-R para rehacer (redo)</p>
+
+<p>​    A - agregar texto al final</p>
+
+<p>​    :wq - grabar y salir</p>
+
+<p>​    :q! - salir sin grabar</p>
+
+<p>​    dw - mueve el cursor al inicio de la palabrapara borrar la palabra</p>
+
+<p>​    2w - mueve el cursor 2 palabras hacia adelante</p>
+
+<p>​    3e - mueve el cursor al final de la tercera palabra hacia adelante</p>
+
+<p>​    0 (cero) - mueve el cursor al inicio de la línea</p>
+
+<p>​    d2w - borra 2 palabras, se puede cambiar el número para borrar la cantidd de palabras consecutivas, ej. d3w</p>
+
+<p>​    dd - borra la línea actual y 2dd borra 2 líneas consecutivas</p>
+
+<p>El formato para un comando de cambio es: operador [número] acción</p>
+
+<p><strong>operador</strong> - es lo que se desea hacer, tal como d para borrar (delete)</p>
+
+<p><strong>[número]</strong> - es un contador opcional para repetir la acción</p>
+
+<p><strong>acción</strong> - actúa sobre el texto a modificar, tal como w para palabra (word), $ para fin de línea, etc.</p>
+
+<p>​    p - pega el texto previamente borrado después del cursor (pulsa dd para borrar la línea y almacenbarla en un registro de Vim, y usa el comando p para pegar la línea)</p>
+
+<p>​    r - reemplaza la letra, ej. teclea re para reemplazar la letra con e</p>
+
+<p>​    ce - cambia hasta el final de la palabra (ej., con el cursor en la u de lubw, borrará ubw)</p>
+
+<p>​    ce - borra la palabra y deja en modo de inserción</p>
+
+<p>​    G - mueve el cursor al final del archivo</p>
+
+<p>​    gg - mueve el cursor al inicio del archivo</p>
+
+<p>​    :n - ir a la línea n</p>
+
+<p>​    /texto - buscar texto, n repite la búsqueda</p>
+
+<p>​    :s/texto/nuevoTexto/g - reemplaza texto por nuevoTexto global en el archivo (g)</p>
+
+<p>​    ? búsqueda hacia atrás</p>
+
+<p>​    :! para ejecutar comandos de shell, ej. :!ls</p>
+
+<p>​    :w - guarda el archivo</p>
+
+<p>​    v - inicia el modo visual para seleccionar líneas y ejecutar operaciones como d (delete)</p>
+
+<p>​    :r - nombreDeArchivo inserta el contenido del archivo en el archivo actual</p>
+
+<p>​    R - reemplaza más de un caracter</p>
+
+<p>​    y - comando para copiar texto en modo visual y p para pegarlo</p>
+
+<p>​    o - inserta una línea abajo del cursor e inicia el modo de inserción7</p>
+
+<p>​    O - inserta una línea arriba del cursor</p>
+
+<p>​    a - abre el modo de inserción después del cursor</p>
+
+<p>​    A - abre el modo deo inserción al final de la línea</p>
+
+<p>​    e - mueve el cursor al final de la palabra</p>
+
+<p>​    y - copia el texto, p pega el texto</p>
+
+<p>​    R - inicia el modo Replace (Reemplazar) hasta que se presione ESC</p>
+
+<p>​    ctrl - w salta entre ventanas</p>
+
+<p>Para ver todos los comandos que inicien con una letra, escribir :e y presionar ctrl+D, después presionr TAB para completar el comando.</p>

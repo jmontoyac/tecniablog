@@ -5,13 +5,114 @@
     <description>Jekyll template, Medium styled, free for bloggers.</description>
     <link>http://0.0.0.0:4000/mediumish-theme-jekyll/</link>
     <atom:link href="http://0.0.0.0:4000/mediumish-theme-jekyll/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 31 Aug 2020 22:07:47 -0500</pubDate>
-    <lastBuildDate>Mon, 31 Aug 2020 22:07:47 -0500</lastBuildDate>
+    <pubDate>Tue, 01 Sep 2020 16:29:27 -0500</pubDate>
+    <lastBuildDate>Tue, 01 Sep 2020 16:29:27 -0500</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
+        <title>Comandos De Vim</title>
+        <description>&lt;p&gt;Comandos simples de Vim&lt;/p&gt;
+
+&lt;p&gt;\1. Modo de inserción (En el que se puede escribir com en cualquier editor de textos normal)&lt;/p&gt;
+
+&lt;p&gt;\2. Modo de comandos (En el que se puede dar comandos al editor. Se accede al modo de comandos presionando ESC)&lt;/p&gt;
+
+&lt;p&gt;La mayoría de los siguientes comandos se dan en modo de comandos&lt;/p&gt;
+
+&lt;p&gt;​    x - para borrar caracter&lt;/p&gt;
+
+&lt;p&gt;​    u - deshace el último comando y U deshace la última línea&lt;/p&gt;
+
+&lt;p&gt;​    CTRL-R para rehacer (redo)&lt;/p&gt;
+
+&lt;p&gt;​    A - agregar texto al final&lt;/p&gt;
+
+&lt;p&gt;​    :wq - grabar y salir&lt;/p&gt;
+
+&lt;p&gt;​    :q! - salir sin grabar&lt;/p&gt;
+
+&lt;p&gt;​    dw - mueve el cursor al inicio de la palabrapara borrar la palabra&lt;/p&gt;
+
+&lt;p&gt;​    2w - mueve el cursor 2 palabras hacia adelante&lt;/p&gt;
+
+&lt;p&gt;​    3e - mueve el cursor al final de la tercera palabra hacia adelante&lt;/p&gt;
+
+&lt;p&gt;​    0 (cero) - mueve el cursor al inicio de la línea&lt;/p&gt;
+
+&lt;p&gt;​    d2w - borra 2 palabras, se puede cambiar el número para borrar la cantidd de palabras consecutivas, ej. d3w&lt;/p&gt;
+
+&lt;p&gt;​    dd - borra la línea actual y 2dd borra 2 líneas consecutivas&lt;/p&gt;
+
+&lt;p&gt;El formato para un comando de cambio es: operador [número] acción&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;operador&lt;/strong&gt; - es lo que se desea hacer, tal como d para borrar (delete)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;[número]&lt;/strong&gt; - es un contador opcional para repetir la acción&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;acción&lt;/strong&gt; - actúa sobre el texto a modificar, tal como w para palabra (word), $ para fin de línea, etc.&lt;/p&gt;
+
+&lt;p&gt;​    p - pega el texto previamente borrado después del cursor (pulsa dd para borrar la línea y almacenbarla en un registro de Vim, y usa el comando p para pegar la línea)&lt;/p&gt;
+
+&lt;p&gt;​    r - reemplaza la letra, ej. teclea re para reemplazar la letra con e&lt;/p&gt;
+
+&lt;p&gt;​    ce - cambia hasta el final de la palabra (ej., con el cursor en la u de lubw, borrará ubw)&lt;/p&gt;
+
+&lt;p&gt;​    ce - borra la palabra y deja en modo de inserción&lt;/p&gt;
+
+&lt;p&gt;​    G - mueve el cursor al final del archivo&lt;/p&gt;
+
+&lt;p&gt;​    gg - mueve el cursor al inicio del archivo&lt;/p&gt;
+
+&lt;p&gt;​    :n - ir a la línea n&lt;/p&gt;
+
+&lt;p&gt;​    /texto - buscar texto, n repite la búsqueda&lt;/p&gt;
+
+&lt;p&gt;​    :s/texto/nuevoTexto/g - reemplaza texto por nuevoTexto global en el archivo (g)&lt;/p&gt;
+
+&lt;p&gt;​    ? búsqueda hacia atrás&lt;/p&gt;
+
+&lt;p&gt;​    :! para ejecutar comandos de shell, ej. :!ls&lt;/p&gt;
+
+&lt;p&gt;​    :w - guarda el archivo&lt;/p&gt;
+
+&lt;p&gt;​    v - inicia el modo visual para seleccionar líneas y ejecutar operaciones como d (delete)&lt;/p&gt;
+
+&lt;p&gt;​    :r - nombreDeArchivo inserta el contenido del archivo en el archivo actual&lt;/p&gt;
+
+&lt;p&gt;​    R - reemplaza más de un caracter&lt;/p&gt;
+
+&lt;p&gt;​    y - comando para copiar texto en modo visual y p para pegarlo&lt;/p&gt;
+
+&lt;p&gt;​    o - inserta una línea abajo del cursor e inicia el modo de inserción7&lt;/p&gt;
+
+&lt;p&gt;​    O - inserta una línea arriba del cursor&lt;/p&gt;
+
+&lt;p&gt;​    a - abre el modo de inserción después del cursor&lt;/p&gt;
+
+&lt;p&gt;​    A - abre el modo deo inserción al final de la línea&lt;/p&gt;
+
+&lt;p&gt;​    e - mueve el cursor al final de la palabra&lt;/p&gt;
+
+&lt;p&gt;​    y - copia el texto, p pega el texto&lt;/p&gt;
+
+&lt;p&gt;​    R - inicia el modo Replace (Reemplazar) hasta que se presione ESC&lt;/p&gt;
+
+&lt;p&gt;​    ctrl - w salta entre ventanas&lt;/p&gt;
+
+&lt;p&gt;Para ver todos los comandos que inicien con una letra, escribir :e y presionar ctrl+D, después presionr TAB para completar el comando.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 01 Sep 2020 00:00:00 -0500</pubDate>
+        <link>http://0.0.0.0:4000/mediumish-theme-jekyll/Comandos-de-vim/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/mediumish-theme-jekyll/Comandos-de-vim/</guid>
+        
+        
+      </item>
+    
+      <item>
         <title>Cómo abrir puertos en Linux</title>
-        <description>&lt;p&gt;Para abrir puertos en sistemas  Linux RedHat  y derivados, como  CentOS 7  lo podemos hacer por medio del firewall que viene con estos sistemas, que es &lt;em&gt;firewall-cmd&lt;/em&gt;.&lt;/p&gt;
+        <description>&lt;p&gt;brav&lt;/p&gt;
+
+&lt;p&gt;Para abrir puertos en sistemas  Linux RedHat  y derivados, como  CentOS 7  lo podemos hacer por medio del firewall que viene con estos sistemas, que es &lt;em&gt;firewall-cmd&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;Como primer ejemplo, de la siguiente manera se agrega el puerto 443 por protocolo TCP de manera temporal, lo que significa que esta configuración no se mantendrá después de un reinicio de la máquina o de una recarga del servicio de firewall.&lt;/p&gt;
 &lt;pre class=&quot;wp-block-preformatted&quot;&gt;#  firewall-cmd --zone=public --add-port=443/tcp 
@@ -360,34 +461,6 @@ success&lt;/pre&gt;
         <pubDate>Fri, 12 Jan 2018 00:00:00 -0600</pubDate>
         <link>http://0.0.0.0:4000/mediumish-theme-jekyll/red-riding/</link>
         <guid isPermaLink="true">http://0.0.0.0:4000/mediumish-theme-jekyll/red-riding/</guid>
-        
-        
-        <category>Jekyll</category>
-        
-        <category>tutorial</category>
-        
-      </item>
-    
-      <item>
-        <title>Press and education</title>
-        <description>&lt;p&gt;Even the press, the classroom, the platform, and the pulpit in many instances do not give us objective and unbiased truths. To save man from the morass of propaganda, in my opinion, is one of the chief aims of education. Education must enable one to sift and weigh evidence, to discern the true from the false, the real from the unreal, and the facts from the fiction.&lt;/p&gt;
-
-&lt;p&gt;Education must also train one for quick, &lt;strong&gt;resolute and effective thinking&lt;/strong&gt;. To think incisively and to think for one’s self is very difficult.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;We are prone to let our mental life become invaded by legions of half truths, prejudices, and propaganda. At this point, I often wonder whether or not education is fulfilling its purpose. A great majority of the so-called educated people do not think logically and scientifically.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The function of education, therefore, is to teach one to think intensively and to think critically. But education which stops with efficiency may prove the greatest menace to society. The most dangerous criminal may be the man gifted with reason, but with no morals.&lt;/p&gt;
-
-&lt;p&gt;The late Eugene Talmadge, in my opinion, possessed one of the better minds of Georgia, or even America. Moreover, he wore the Phi Beta Kappa key. By all measuring rods, Mr. Talmadge could think critically and intensively; yet he contends that I am an inferior being. Are those the types of men we call educated?&lt;/p&gt;
-
-&lt;p&gt;We must remember that intelligence is not enough. Intelligence plus character–that is the goal of true education. The complete education gives one not only power of concentration, but worthy objectives upon which to concentrate. The broad education will, therefore, transmit to one not only the accumulated knowledge of the race but also the accumulated experience of social living.&lt;/p&gt;
-
-</description>
-        <pubDate>Fri, 12 Jan 2018 00:00:00 -0600</pubDate>
-        <link>http://0.0.0.0:4000/mediumish-theme-jekyll/press-and-education/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/mediumish-theme-jekyll/press-and-education/</guid>
         
         
         <category>Jekyll</category>

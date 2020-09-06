@@ -3,7 +3,7 @@ name: "Tecniablog"
 title: "Tecniablog"
 description: "Notas de programación, Linux, DevOps"
 logo: 'assets/images/logo.png'
-favicon: 'assets/images/logo.png'
+favicon: 'assets/images/letter-t.png'
 baseurl: /
 google_analytics: 
 disqus: 'demowebsite'
@@ -17,7 +17,8 @@ authors:
     name: Jay
     display_name: Jay
     avatar: assets/images/jemc.jpeg
-    gravatar: 49510f2a2c1b780cdd29da790028e6b9
+    #gravatar: 49510f2a2c1b780cdd29da790028e6b9
+    gravatar: assets/images/jemc.jpeg
     email: jmontoyac@gmail.com
     web: https://jmontoyac.github.io/tecniablog/
     twitter: https://twitter.com/jmontoyarib

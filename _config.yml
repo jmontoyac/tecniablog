@@ -16,10 +16,10 @@ authors:
   jay:
     name: Jay
     display_name: Jay
-    avatar: https://avatars1.githubusercontent.com/u/11711544?s=400&v=4
+    avatar: assets/images/jemc.jpeg
     gravatar: 49510f2a2c1b780cdd29da790028e6b9
     email: jmontoyac@gmail.com
-    web: 
+    web: https://jmontoyac.github.io/tecniablog/
     twitter: https://twitter.com/jmontoyarib
     description: "Notas de programación, Linux, DevOps"
 

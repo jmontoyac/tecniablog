@@ -3,7 +3,7 @@ layout: post
 title:  "Comandos simples de Vim"
 author: jay
 categories: [ linux, tutorial ]
-image: assets/images/vim.jpg
+image: assets/images/vim.png
 featured: true
 hidden: true
 ---
@@ -12,7 +12,7 @@ hidden: true
 
 
 
-1. Modo de inserción (En el que se puede escribir com en cualquier editor de textos normal)
+1. Modo de inserción (En el que se puede escribir como en cualquier editor de textos normal)
 
 2. Modo de comandos (En el que se puede dar comandos al editor. Se accede al modo de comandos presionando `ESC`)
 

@@ -3,7 +3,7 @@ layout: post
 title:  "Cómo abrir puertos en Linux"
 author: jay
 categories: [ linux, tutorial ]
-image: assets/images/puertos.jpg
+image: assets/images/puertos.png
 featured: true
 hidden: true
 ---

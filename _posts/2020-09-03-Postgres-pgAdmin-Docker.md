@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Ambiente Postgres + pgAdmin + Docker Compose"
-author: Jay
+author: jay
 categories: [ linux, tutorial ]
 image: assets/images/puertos.png
 featured: true

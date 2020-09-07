@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Cómo descargar libros de Lectulandia"
-author: Jay
+author: jay
 categories: [ tutorial ]
 image: assets/images/lectulandia0.png
 featured: false

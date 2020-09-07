@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Comandos simples de Vim"
-author: jay
+author: Jay
 categories: [ linux, tutorial ]
 image: assets/images/vim.png
 featured: true

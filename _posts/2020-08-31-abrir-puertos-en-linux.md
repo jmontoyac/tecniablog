@@ -6,6 +6,8 @@ categories: [ linux, tutorial ]
 image: assets/images/puertos.png
 featured: true
 hidden: true
+description: "Manera fácil de abrir puertos en CentOS con iptables"
+rating: 3.5
 ---
  
  Para abrir puertos en sistemas  Linux RedHat  y derivados, como  CentOS 7  lo podemos hacer por medio del firewall que viene con estos sistemas, que es <em>firewall-cmd</em>.

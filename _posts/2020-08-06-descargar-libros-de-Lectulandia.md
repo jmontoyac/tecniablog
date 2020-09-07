@@ -1,3 +1,13 @@
+---
+layout: post
+title:  "Cómo descargar libros de Lectulandia"
+author: Jay
+categories: [ tutorial ]
+image: assets/images/lectulandia0.png
+featured: true
+hidden: true
+---
+
 Cómo descargar libros de Lectulandia
 
 Lectulandia es un servicio de compartición de libros electrónicos en español, completo y actualizado, con un catálogo amplio y organizado y que ha estado activo por un tiempo considerable. La deisponibilidad se ha mantenido estable, por lo que es una buena opción para los amantes de la lectura. El sitio tiene los libros de su catálogo en formatos epub y pdf, para lectura en computadoras, tablets, teléfonos y también pueden ser convertidos de formato para leerse en dispositivos Kindle.

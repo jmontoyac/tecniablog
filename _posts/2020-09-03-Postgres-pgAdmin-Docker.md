@@ -6,6 +6,7 @@ categories: [ linux, tutorial ]
 image: assets/images/puertos.png
 featured: true
 hidden: true
+rating: 4
 ---
 
 **Ambiente Postgres + pgAdmin + Docker Compose**

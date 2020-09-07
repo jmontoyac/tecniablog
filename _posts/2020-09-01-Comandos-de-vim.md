@@ -6,6 +6,7 @@ categories: [ linux, tutorial ]
 image: assets/images/vim.png
 featured: true
 hidden: true
+rating: 4
 ---
 
 **Comandos simples de Vim**

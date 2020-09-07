@@ -6,6 +6,7 @@ categories: [ tutorial ]
 image: assets/images/lectulandia0.png
 featured: false
 hidden: true
+rating: 4
 ---
 
 Cómo descargar libros de Lectulandia
@@ -18,12 +19,12 @@ A continuación presento los pasos para la descarga de libros desde Lectulandia:
 
 1. Ingresar al sitio https://www.lectulandia.co/
 
-   ![](/home/jemc/projects/tecniablog/assets/images/lectulandia1.png)
+   ![sitio](/assets/images/lectulandia1.png)
 
 2. Busca y selecciona el libro que deseas descargar, por ejemplo, El Principito
 
-   ![lectulandia2](/home/jemc/projects/tecniablog/assets/images/lectulandia2.png)
+   ![libro](/assets/images/lectulandia2.png)
 
 3. Existen diferentes botones  que indican la liga de descarga de los libros, tanto en formato epub, como en pdf. Los botones correctos para descarga, son los que están el parte de abajo de la portada del libro, que indico en la siguiente imagen:
 
-   ![lectulandia3](/home/jemc/projects/tecniablog/assets/images/lectulandia3.png)
+   ![botones](/assets/images/lectulandia3.png)

@@ -5,8 +5,8 @@ description: "Notas de programación, Linux, DevOps"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/letter-t.png'
 baseurl: /
-google_analytics: 
-disqus: 'demowebsite'
+google_analytics: "UA-101880560-2"
+disqus: 'tecniablog'
 mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 include: ["_pages"]
 permalink: /:title/
@@ -14,7 +14,7 @@ permalink: /:title/
 # Authors
 authors:
   jay:
-    name: Jay
+    name: Jay 
     display_name: Jay
     avatar: assets/images/jemc.jpeg
     #gravatar: 49510f2a2c1b780cdd29da790028e6b9
@@ -58,9 +58,6 @@ kramdown:
 adsense: "enabled"
 adsense-data-ad-client: "ca-pub-4367921847996027"
 adsense-data-ad-slot: "1363087678"
-
-# Google Analytics
-google_analytics: "UA-101880560-2"
 
 # Lazy Images ("enabled" or "disabled")
 lazyimages: "disabled"

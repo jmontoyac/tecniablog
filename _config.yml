@@ -2,7 +2,7 @@
 name: "Tecniablog"
 title: "Tecniablog"
 description: "Notas de programación, Linux, DevOps"
-logo: 'assets/images/syslogo.png'
+logo: 'assets/images/letterT.png'
 favicon: 'assets/images/letter-t.png'
 baseurl: /
 google_analytics: "UA-101880560-2"

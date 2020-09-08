@@ -11,6 +11,12 @@ mailchimp-list:
 include: ["_pages", "_includes"]
 permalink: /:title/
 
+defaults:
+  - scope:
+      path: "assets/images"
+    values:
+      image: true
+
 # Authors
 authors:
   jay:

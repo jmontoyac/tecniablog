@@ -17,7 +17,7 @@ El sitio ptresenta algo de dificultad para usuarios no muy versados en procedimi
 
 A continuación presento los pasos para la descarga de libros desde Lectulandia:
 
-1. Ingresar al sitio [Lectulandia](https://www.lectulandia.co/)
+1. Ingresar al sitio [Lectulandia]([https://www.lectulandia.co/)
 
    ![sitio](assets/images/lectulandia1.png)
 

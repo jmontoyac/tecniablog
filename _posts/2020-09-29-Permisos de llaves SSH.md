@@ -6,7 +6,7 @@ categories: [ tutorial, linux ]
 image: assets/images/ssh-cliente-servidor.jpg
 featured: false
 hidden: false
-rating: 4.0
+rating: 4
 ---
 # Permisos de archivos SSH
 

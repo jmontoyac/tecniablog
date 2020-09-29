@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Cómo pasar lubros epub a Amazon Kindle"
+title:  "Cómo pasar libros epub a Amazon Kindle"
 author: jay
 categories: [ tutorial ]
 image: assets/images/kindle.jpg

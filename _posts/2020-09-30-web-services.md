@@ -122,4 +122,4 @@ Bibliografía
 - Service Oriented Java Business Integration.
 <https://www.packtpub.com/application-development/service-oriented-java-business-integration>
 - SICOFI (Sistema Integral de Comprobantes Fiscales) – Verificación.
-<ftp://ftp2.sat.gob.mx/asistencia_ftp/publicaciones/cfd/Manual_Usuario_Validador.pdf>
+<https://cfd.sicofi.com.mx/manuales/ManualSicofi33v33.pdf>

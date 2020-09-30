@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Permisos de llaves SSH y archivos relacionados"
+title:  "Qué son los Web Services"
 author: jay
-categories: [ tutorial, linux ]
-image: assets/images/ssh-cliente-servidor.jpg
-featured: false
+categories: [ tutorial ]
+image: assets/images/ws0.jpg
+featured: true
 hidden: false
-rating: 4
+rating: 5
 ---
 
 # Qué son los Web Services

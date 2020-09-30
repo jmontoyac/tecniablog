@@ -2,7 +2,7 @@
 name: "Tecniablog"
 title: "Tecniablog"
 description: "Notas de programación, Linux, DevOps"
-logo: 'assets/images/letterT.png'
+logo: 'assets/images/TecniaLogo.png'
 favicon: 'favicon.ico'
 baseurl: /
 google_analytics: "UA-101880560-2"
@@ -28,7 +28,7 @@ authors:
     email: jmontoyac@gmail.com
     web: https://jmontoyac.github.io/tecniablog/
     twitter: https://twitter.com/jmontoyarib
-    description: "Linux, SysAdm y Programador"
+    description: "Linux, SysAdm, DevOps"
 
 # Plugins
 plugins:

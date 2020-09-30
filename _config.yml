@@ -1,7 +1,7 @@
 # Site
 name: "Tecniablog"
-title: "Blog notas"
-description: "Este blog ocntiene mis notas de programación, Linux, DevOps y otras referencias"
+title: "Blog de notas"
+description: "Este blog contiene mis notas de programación, Linux, DevOps y otras referencias"
 logo: 'assets/images/TecniaLogo.png'
 favicon: 'favicon.ico'
 baseurl: /

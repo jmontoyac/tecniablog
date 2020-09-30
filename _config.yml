@@ -1,6 +1,6 @@
 # Site
-name: "Tecniablog"
-title: "Cosas que quiero recordar"
+name: "Cosas que quiero recordar"
+title: "Tecniablog"
 description: "Notas de programación, Linux, DevOps"
 logo: 'assets/images/TecniaLogo.png'
 favicon: 'favicon.ico'

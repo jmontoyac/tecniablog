@@ -3,7 +3,7 @@ layout: post
 title:  "Cómo activar Wi-Fi en HP mini 110 con Ubuntu"
 author: jay
 categories: [ tutorial, linux ]
-image: assets/images/hp110mini.jpg
+image: assets/images/hp110mini.jpeg
 featured: false
 hidden: false
 rating: 5

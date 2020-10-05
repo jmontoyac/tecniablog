@@ -6,7 +6,7 @@ logo: 'assets/images/TecniaLogo.png'
 favicon: 'favicon.ico'
 baseurl: /
 google_analytics: "UA-101880560-2"
-disqus: 'tecniablog'
+disqus: 'jmontoyac@gmail.com'
 mailchimp-list: 
 include: ["_pages", "_includes"]
 permalink: /:title/

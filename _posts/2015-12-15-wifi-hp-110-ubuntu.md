@@ -4,6 +4,7 @@ title:  "Cómo activar Wi-Fi en HP mini 110 con Ubuntu"
 author: jay
 categories: [ tutorial, linux ]
 image: assets/images/hp110mini.jpeg
+comments: true
 featured: false
 hidden: false
 rating: 5
@@ -26,5 +27,5 @@ sudo apt-get --reinstall install bcmwl-kernel-source
 
 Y después reiniciar el sistema. Después del reinicio, se podrá activar o encender la tarjeta WIFI con el interruptor manual que está al frente de la computadora, del lado derecho y configurar la conexión inalámbrica de red.
 
-Para mayor información ver [Descargar Lubuntu](http://lubuntu.net/blog/lubuntu-1504-vivid-vervet-released), Sistema Operativo [Ubuntu](ubuntu.com)
+Para mayor información ver [Descargar Lubuntu](http://lubuntu.net/blog/lubuntu-1504-vivid-vervet-released), Sistema Operativo [Ubuntu](http://ubuntu.com)
 

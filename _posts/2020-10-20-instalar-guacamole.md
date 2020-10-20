@@ -5,7 +5,7 @@ author: jay
 categories: [ tutorial ]
 image: assets/images/guacamole.png
 comments: true
-featured: false
+featured: true
 hidden: false
 rating: 5
 ---

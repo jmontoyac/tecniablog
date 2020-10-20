@@ -4,7 +4,7 @@ title:  "Comandos simples de Vim"
 author: jay
 categories: [ linux, tutorial ]
 image: assets/images/vim.png
-featured: true
+featured: false
 hidden: true
 rating: 4
 ---

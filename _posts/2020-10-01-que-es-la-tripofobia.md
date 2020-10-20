@@ -4,7 +4,7 @@ title:  "Qué es la tripofobia"
 author: jay
 categories: [ artículo ]
 image: assets/images/tripofobia1.jpg
-featured: false
+featured: true
 hidden: false
 rating: 5
 ---

@@ -5,7 +5,7 @@ author: jay
 categories: [ tutorial, linux ]
 image: assets/images/hp110mini.jpeg
 comments: true
-featured: false
+featured: true
 hidden: false
 rating: 5
 ---

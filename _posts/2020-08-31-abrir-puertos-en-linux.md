@@ -4,7 +4,7 @@ title:  "Cómo abrir puertos en Linux"
 author: jay
 categories: [ linux, tutorial ]
 image: assets/images/puertos.png
-featured: true
+featured: false
 hidden: true
 description: "Manera fácil de abrir puertos en CentOS con iptables"
 rating: 3.5

@@ -10,7 +10,7 @@ hidden: false
 rating: 5
 ---
 
-# Activar Wi-Fi en HP 110 Mini
+# Cómo instalar Apache Guacamole en Debian
 
 Buenos días | tardes | noches, hoy veremos cómo instalar, configurar y usar Apache Guacamole, una herramienta que nos permite conectarnos remotamente por web mediante protocolos cómo SSH, RDP, VNC.
 

@@ -23,7 +23,7 @@ Por ejemplo, si se ejecutó un comando que contenga una contraseña sin encripta
 Si vemos el siguiente comando, un usuario escribió la contraseña del servidor de base de datos en la línea de comandos.
 
 ```bash
-sudo mysql -u root -pSaa?labD@
+$ sudo mysql -u root -pSaa?labD@
 ```
 
 Si revisamos el archivo de historial de Bash, al final veremos la contraseña que se  introdujo en el comando.
@@ -62,4 +62,3 @@ Se puede ahondar más sobre el funcionamiento del historial de Bash en la siguie
 
 Se debe recordar que todos los comandos ejecutados son registrados en el archivo de historial, así que se debe evitar ejecutar comandos con contraseñas sin encriptar.
 
-A través de [Guacamole](http://openbinary20.com/2018/03/24/apache-guacamole/)

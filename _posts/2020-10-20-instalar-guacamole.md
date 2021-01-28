@@ -5,9 +5,9 @@ author: jay
 categories: [ tutorial ]
 image: assets/images/guacamole.png
 comments: true
-featured: true
+featured: false
 hidden: false
-rating: 5
+rating: 3
 ---
 
 # Cómo instalar Apache Guacamole en Debian

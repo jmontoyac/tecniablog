@@ -20,11 +20,11 @@ Los siguientes pasos deben ser ejecutados desde la cuenta del usuario `root`:
 
 1. Respaldar el archivo `/etc/sudoers` con el siguiente comando:
 ```bash
-$ sudo cp /etc/sudoers /root/sudoers.bak
+$ cp /etc/sudoers /root/sudoers.bak
 ```
 2. Editar el archivo `/etc/sudoers` usando el siguiente comando:
 ```bash
-$ sudo visudo
+$ visudo
 ```
 3. Agregar o editar la línea como sigue en el archivo `/etc/sudoers` para el usuario llamado 'bob':
 ```bash

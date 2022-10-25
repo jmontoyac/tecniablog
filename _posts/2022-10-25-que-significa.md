@@ -29,6 +29,7 @@ También se le considera sigla a cada una de las letras que componen el término
 
 ### Ejemplos de siglas
 
+{:class="table table-bordered"}
 | Siglas     | Significado |
 | ---------- | --------------------------------------------------- |
 | BID        | Banco Interamericano de Desarollo                   |

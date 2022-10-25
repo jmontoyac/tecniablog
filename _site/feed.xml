@@ -2,12 +2,251 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tecniablog</title>
-    <description>Notas de programación, Linux, DevOps</description>
-    <link>http://0.0.0.0:4000//</link>
-    <atom:link href="http://0.0.0.0:4000//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 30 Sep 2020 10:19:54 -0500</pubDate>
-    <lastBuildDate>Wed, 30 Sep 2020 10:19:54 -0500</lastBuildDate>
-    <generator>Jekyll v3.8.5</generator>
+    <description>Este blog contiene mis notas de programación, Linux, DevOps y otras referencias</description>
+    <link>http://localhost:4000//</link>
+    <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 25 Oct 2022 09:34:57 -0500</pubDate>
+    <lastBuildDate>Tue, 25 Oct 2022 09:34:57 -0500</lastBuildDate>
+    <generator>Jekyll v4.3.0</generator>
+    
+      <item>
+        <title>Instalación de Virtualenv para Python</title>
+        <description>&lt;h1 id=&quot;virtualenv&quot;&gt;Virtualenv&lt;/h1&gt;
+
+&lt;p&gt;Virtualenv es una herramienta que permite la creación de ambientes aislados de Python para tus proyectos. Éste crea un ambiente que tiene sus propios directorios de instalación, que no comparte dependencias con otros ambientes virtualenv (y de manera opcional tampoco tiene acceso a las dependencias globales). Taqmbién se puede configurar  qué versión de Python se quiere usar para cada ambiente individual. Es muy recomendable el uso de ´´´virtualenv´´´ cuando tratamos con aplicaciones Python.&lt;/p&gt;
+
+&lt;h1 id=&quot;instalación&quot;&gt;Instalación&lt;/h1&gt;
+
+&lt;p&gt;Para instalar virtualenv, ejecutar:
+´´´
+pip install virtualenv
+´´´&lt;/p&gt;
+
+&lt;h1 id=&quot;uso&quot;&gt;Uso&lt;/h1&gt;
+
+&lt;p&gt;Si se tiene un proyecto llamado por ejemplo my-project se puede configurar virtualenv para ese proyecto ejecutando:
+´´´
+cd my-project/
+virtualenv venv
+´´´&lt;/p&gt;
+
+&lt;p&gt;Estos comandos vrean un direcorio ´´´venv/´´´ dentro del proyecto, en el cual se instalan todas las dependencias. El ambiente virtual necesita ser activado (en cada instancia de la terminal que se esté usando en el proyecto):&lt;/p&gt;
+
+&lt;p&gt;´´´
+source venv/bin/activate
+´´´&lt;/p&gt;
+
+&lt;p&gt;Al inicio del prompt de la terminal va a a parecer (venv) indicando que se está trabajando dentro de ´´´virtualenv´´´. Cuando se instale algo como esto:&lt;/p&gt;
+
+&lt;p&gt;´´´
+pip install &lt;paquete&gt;
+´´´&lt;/paquete&gt;&lt;/p&gt;
+
+&lt;p&gt;Será instalado en el folder ´´´venv´´´ y no hará conflicto con otros proyectos.&lt;/p&gt;
+
+&lt;p&gt;Para salir del ambiente virtual, ejecutar:&lt;/p&gt;
+
+&lt;p&gt;´´´
+deactivate
+´´´&lt;/p&gt;
+</description>
+        <pubDate>Tue, 25 Oct 2022 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000//python-virtual-environment/</link>
+        <guid isPermaLink="true">http://localhost:4000//python-virtual-environment/</guid>
+        
+        
+        <category>tutorial</category>
+        
+      </item>
+    
+      <item>
+        <title>Emparejar bocina bluetooth mini Jawbone</title>
+        <description>&lt;h1 id=&quot;cómo-emparejar-una-bocina-mini-jawbone-jambox&quot;&gt;Cómo emparejar una bocina Mini Jawbone Jambox&lt;/h1&gt;
+
+&lt;p&gt;Tengo una bocina Mini Jawbone Jambox, es un modelo antiguo, la empresa que la fabricaba ya no opera y está fuera de soporte, ya no existe la aplicación para emparejarla con otros dispositivos y el procedimiento “normal” de emparejado parece no funcionar.
+Este es un procedimiento que encontré para poder emparejarla, es algo así como un hack.&lt;/p&gt;
+
+&lt;p&gt;Cuando la bocina mini jawnbone se desempareja de un dispositivo, no acepta una nueva conexión bluetooth, para que se pueda conectar nuevamente a un dispositivo, se debe hacer el siguiente procedimiento:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Apagar el bluetooth de dispositivos cercanos&lt;/li&gt;
+  &lt;li&gt;Apagar la bocina mini jawbone&lt;/li&gt;
+  &lt;li&gt;Encender la bocina mini jawbone e inmediatamente presionar rápido 6 veces el botón redondo en la parte superior de la bocina (play / pause) y la 7a vez mantener presionado&lt;/li&gt;
+  &lt;li&gt;Esto va a llevar a la bocina a pairing mode y se puede ya emparejar con un dispositivo&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Voila&lt;/p&gt;
+</description>
+        <pubDate>Thu, 28 Jan 2021 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000//mini-jawbone-pair/</link>
+        <guid isPermaLink="true">http://localhost:4000//mini-jawbone-pair/</guid>
+        
+        
+        <category>tutorial</category>
+        
+      </item>
+    
+      <item>
+        <title>Ubuntu, privilegios de usuario sudo sin password</title>
+        <description>&lt;h1 id=&quot;otorgar-privilegios-de-administrador-a-un-usuario-en-ubuntu---sudo&quot;&gt;Otorgar privilegios de administrador a un usuario en Ubuntu - sudo&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Ubuntu 20.04&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;El comando &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo&lt;/code&gt; es un mecanismo para otorgar a usuarios normales privilegios de administrador, que comunmente están disponibles solo para el usuario root. Esta guía  muestra una manera sencilla de crear un usuario con acceso sudo en &lt;strong&gt;Ubuntu&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Los siguientes pasos deben ser ejecutados desde la cuenta del usuario &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;root&lt;/code&gt;:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Respaldar el archivo &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/etc/sudoers&lt;/code&gt; con el siguiente comando:
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cp&lt;/span&gt; /etc/sudoers /root/sudoers.bak
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Editar el archivo &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/etc/sudoers&lt;/code&gt; usando el siguiente comando:
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;visudo
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Agregar o editar la línea como sigue en el archivo &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/etc/sudoers&lt;/code&gt; para el usuario llamado ‘bob’:
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;bob    &lt;span class=&quot;nv&quot;&gt;ALL&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=(&lt;/span&gt;ALL&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; NOPASSWD:ALL
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Guardar el archivo y saler del editor.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;##¿Cómo probarlo?&lt;/p&gt;
+
+&lt;p&gt;Se puede probar que el procedimiento haya sido correcto por medio del siguiente comando, ejecutado desde la cuenta de &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bob&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;bob@server]&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sudo&lt;/span&gt; /bin/systemctl restart httpd.service
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+        <pubDate>Wed, 27 Jan 2021 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000//ubuntu-sudo-sin-password/</link>
+        <guid isPermaLink="true">http://localhost:4000//ubuntu-sudo-sin-password/</guid>
+        
+        
+        <category>tutorial</category>
+        
+      </item>
+    
+      <item>
+        <title>Cómo borrar el historial de comandos en CentOS</title>
+        <description>&lt;h1 id=&quot;cómo-borrar-el-historial-de-comandos-en-centos&quot;&gt;Cómo borrar el historial de comandos en CentOS&lt;/h1&gt;
+
+&lt;p&gt;El historial de bash conserva el registro de todos los comandos ejecutados por un usuario en la línea de comandos de Linux. Esto permite volver a ejecutar comandos ejecutados recientemente mediante el uso de la “tecla arriba” o “tecla abajo” para desplazarse a través del archivo histórico de comandos.&lt;/p&gt;
+
+&lt;p&gt;En este artículo se muestran dos maneras de eliminar el historial de la lista de comandos en Linux.&lt;/p&gt;
+
+&lt;p&gt;La razón principal de remover el historial de la línea de comandos de la terminal Linux es prevenir la vista de esos comandos por parte de otro usuario que esté usando la misma cuenta.&lt;/p&gt;
+
+&lt;p&gt;Por ejemplo, si se ejecutó un comando que contenga una contraseña sin encriptar y se quiere prevenir que otro usuario del sistema o algún atacante vea la contraseña, es necesario eliminar el archivo de historial.&lt;/p&gt;
+
+&lt;p&gt;Si vemos el siguiente comando, un usuario escribió la contraseña del servidor de base de datos en la línea de comandos.&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;mysql &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; root &lt;span class=&quot;nt&quot;&gt;-pSaa&lt;/span&gt;?labD@
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Si revisamos el archivo de historial de Bash, al final veremos la contraseña que se  introdujo en el comando.&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;history&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;El archivo de historia &lt;strong&gt;bash_history&lt;/strong&gt; normalmente se ubica en el directorio home del usuario &lt;strong&gt;/home/nombreUsuario/.bash_history&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;ls&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-l&lt;/span&gt; /home/jemc/.bash_history
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Para eliminar una sola línea del archivo, se usa la opción &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-d&lt;/code&gt;. Por ejemplo, si se desea borrar un comando en el que se introdujo unna contraseña sin encriptar, como en el ejemploa nterior, se debe encontrar el número de línea en el archivo de historial y ejecutar este comando:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;history&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-d&lt;/span&gt; 2038
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Para eliminar todas las entradas del historial de Bash, es a través del comando &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;history&lt;/code&gt; con la opción &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-c&lt;/code&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;history&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-c&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Otra manera de eliminar el archivo de histrial completo es:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cat&lt;/span&gt; /dev/null &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; ~/.bash_history
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Nota:&lt;/strong&gt; Un usuario normal solo puede ver su propio historial de comandos, pero el usurio &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;root&lt;/code&gt; puede ver el historial de comandos de todos los usuarios del sistema.&lt;/p&gt;
+
+&lt;p&gt;Se puede ahondar más sobre el funcionamiento del historial de Bash en la siguiente liga: &lt;a href=&quot;https://www.tecmint.com/history-command-examples/&quot;&gt;The Power of Linux “History Command” in a Bash Shell&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Se debe recordar que todos los comandos ejecutados son registrados en el archivo de historial, así que se debe evitar ejecutar comandos con contraseñas sin encriptar.&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 13 Jan 2021 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000//borrar-history-centos/</link>
+        <guid isPermaLink="true">http://localhost:4000//borrar-history-centos/</guid>
+        
+        
+        <category>tutorial</category>
+        
+      </item>
+    
+      <item>
+        <title>Instalación y configuración de Apache Guacamole</title>
+        <description>&lt;h1 id=&quot;cómo-instalar-apache-guacamole-en-debian&quot;&gt;Cómo instalar Apache Guacamole en Debian&lt;/h1&gt;
+
+&lt;p&gt;Buenos días / tardes / noches, hoy veremos cómo instalar, configurar y usar Apache Guacamole, una herramienta que nos permite conectarnos remotamente por web mediante protocolos cómo SSH, RDP, VNC.&lt;/p&gt;
+
+&lt;p&gt;A través de &lt;a href=&quot;http://openbinary20.com/2018/03/24/apache-guacamole/&quot;&gt;Guacamole&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 20 Oct 2020 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000//instalar-guacamole/</link>
+        <guid isPermaLink="true">http://localhost:4000//instalar-guacamole/</guid>
+        
+        
+        <category>tutorial</category>
+        
+      </item>
+    
+      <item>
+        <title>Qué es la tripofobia</title>
+        <description>&lt;h1 id=&quot;qué-es-la-tripofobia&quot;&gt;¿Qué es la tripofobia?&lt;/h1&gt;
+
+&lt;p&gt;La &lt;strong&gt;tripofobia&lt;/strong&gt; es muy común en los humanos, pero es poco conocida. &lt;em&gt;Es el miedo patológico a las figuras geométricas formadas por agujeros o dibujos repetidos y próximos de orificios en grandes cantidades sobre una superficie, normalmente de apariencia asimétrica y especialmente orgánica&lt;/em&gt;. Algunas personas manifiestan auténtico pánico, náuseas y sudores fríos cuando ven un montón de espuma con burbujas, un traje de lunares, una flor de loto, un panal de abejas, un puñado de troncos apilados, un ladrillo o una tableta de chocolate con burbujas. Este trastorno podría tener un origen evolutivo, según sugiere un nuevo estudio que publicó la Universidad de Essex en la revista &lt;em&gt;Psychological Science&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;La fobia a los agujeros o patrones repetitivos puede ser más frecuente de lo que imaginamos. En un estudio previo realizado a través de Internet, &lt;em&gt;Geoff Cole&lt;/em&gt; y &lt;em&gt;Arnold Wilkins&lt;/em&gt; identificaron razones tripofóbicas en un 16% de los sujetos que participaron.Este miedo a los agujeros o a los dibujos repetidos no tienen un motivo. A diferencia de otro tipo de fobias como puede ser la agorafobia por nombrar un ejemplo, la &lt;strong&gt;tripofobia&lt;/strong&gt; puede presentarse a cualquier persona sin que exista un motivo en su pasado que le provoque un trauma y por ello se genere el inicio de la fobia.&lt;/p&gt;
+
+&lt;h2 id=&quot;un-estudio-sobre-el-miedo-a-los-agujeros&quot;&gt;Un estudio sobre el miedo a los agujeros&lt;/h2&gt;
+
+&lt;p&gt;En al caso de este miedo a los agujeros o patrones repetitivos el origen, si bien no está claro, existen artículos ingleses de 2013 que analizan el tema (esto da la idea de que el tema es considerablemente reciente), la &lt;strong&gt;tripofobia&lt;/strong&gt; podría tener su origen, de acuerdo al artículo mencionado, que dejamos aquí &lt;a href=&quot;http://pss.sagepub.com/content/24/10/1980&quot;&gt;Fear of holes&lt;/a&gt;, el artículo está en inglés. El origen de este trastorno molesto e incómodo podría estar arraigado en nuestros genes como un recuerdo instintivo para alejarnos de aquello que pueda dañarnos.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/images/tripofobia2.jpg&quot; alt=&quot;tripofobia2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;De acuerdo con Geoff Cole, uno de los autores del artículo antes mencionado, el motivo según sus hipótesis está en los patrones visuales que causan la &lt;strong&gt;tripofobia&lt;/strong&gt; tienen por lo general bastante en común con las manchas que tienen en la piel los animales venenosos. Muchos de estos animales tienen marcas muy visibles y vistosas en su cuerpo, las ranas con colores brillantes y patrones geométricos en sus manchas, las setas venenosas, una cobra en su cuerpo, una serpiente de coral… todos esos animales tienen en común, entre otras cosas, que son venenosos, tienen patrones de agujeros o manchas que pueden tener inconscientemente cierta similitud con agujeros, y que pueden matarte rápidamente sino te alejas de ellos.
+Es normal entonces que evolutivamente esta fobia o miedo siga en nuestros genes ya que aquellos individuos que la tenían, era más probable que sobrevivieran con éxito ya que se exponían a menos riesgos ante estas criaturas. Lo que hizo que con el paso de las generaciones, esa fobia a los agujeros se convirtiera en una ventaja evolutiva. Desagradable para quien la tiene, sí, pero eficaz. Y al fin y al cabo en la naturaleza lo que importaba era el resultado. Mantenerte a salvo.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/images/tripofobia3.jpg&quot; alt=&quot;tripofobia3&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;referencias&quot;&gt;Referencias&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.muyinteresante.es/salud/articulo/la-tripofobia-o-miedo-a-los-agujeros-podria-tener-una-explicacion-evolutiva-891378205763&quot;&gt;La tropofobia puede tener un origen evolutivo&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://psicologiamotivacional.com/tripofobia-fobia-agujeros/&quot;&gt;Tripofobia- psicología&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://pss.sagepub.com/content/24/10/1980&quot;&gt;Fear of holes - University of Essex&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 01 Oct 2020 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000//que-es-la-tripofobia/</link>
+        <guid isPermaLink="true">http://localhost:4000//que-es-la-tripofobia/</guid>
+        
+        
+        <category>artículo</category>
+        
+      </item>
     
       <item>
         <title>Qué son los Web Services</title>
@@ -132,11 +371,11 @@ específicos para las diferentes plataformas.&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;SICOFI (Sistema Integral de Comprobantes Fiscales) – Verificación.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;a href=&quot;ftp://ftp2.sat.gob.mx/asistencia_ftp/publicaciones/cfd/Manual_Usuario_Validador.pdf&quot;&gt;ftp://ftp2.sat.gob.mx/asistencia_ftp/publicaciones/cfd/Manual_Usuario_Validador.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://cfd.sicofi.com.mx/manuales/ManualSicofi33v33.pdf&quot;&gt;https://cfd.sicofi.com.mx/manuales/ManualSicofi33v33.pdf&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 30 Sep 2020 00:00:00 -0500</pubDate>
-        <link>http://0.0.0.0:4000//web-services/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000//web-services/</guid>
+        <link>http://localhost:4000//web-services/</link>
+        <guid isPermaLink="true">http://localhost:4000//web-services/</guid>
         
         
         <category>tutorial</category>
@@ -151,7 +390,7 @@ específicos para las diferentes plataformas.&lt;/p&gt;
 ciertas resrtricciones para funcionar de manera correcta, a continuación 
 se muestran  los permisos que corresponden a cada archivo:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
 2
 3
 4
@@ -174,8 +413,8 @@ chmod 644 ~/.ssh/mozilla_rsa.pub
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 </description>
         <pubDate>Tue, 29 Sep 2020 00:00:00 -0500</pubDate>
-        <link>http://0.0.0.0:4000//Permisos-de-llaves-SSH/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000//Permisos-de-llaves-SSH/</guid>
+        <link>http://localhost:4000//Permisos-de-llaves-SSH/</link>
+        <guid isPermaLink="true">http://localhost:4000//Permisos-de-llaves-SSH/</guid>
         
         
         <category>tutorial</category>
@@ -190,8 +429,8 @@ chmod 644 ~/.ssh/mozilla_rsa.pub
 
 </description>
         <pubDate>Tue, 08 Sep 2020 00:00:00 -0500</pubDate>
-        <link>http://0.0.0.0:4000//llevar-epub-a-kindle/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000//llevar-epub-a-kindle/</guid>
+        <link>http://localhost:4000//llevar-epub-a-kindle/</link>
+        <guid isPermaLink="true">http://localhost:4000//llevar-epub-a-kindle/</guid>
         
         
         <category>tutorial</category>
@@ -202,225 +441,17 @@ chmod 644 ~/.ssh/mozilla_rsa.pub
         <title>Ambiente Postgres + pgAdmin + Docker Compose</title>
         <description>&lt;p&gt;&lt;strong&gt;Ambiente Postgres + pgAdmin + Docker Compose&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;En este artículo se aborda el tema de la creación de un ambiente listo para usarse con &lt;strong&gt;Postgres&lt;/strong&gt; acompañado de la interfaz web gráfica &lt;strong&gt;pgAdmin&lt;/strong&gt;, todo esto definido y configurado en plataforma &lt;strong&gt;Docker&lt;/strong&gt; a través de un archivo &lt;code class=&quot;highlighter-rouge&quot;&gt;docker-compose.yml&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;En este artículo se aborda el tema de la creación de un ambiente listo para usarse con &lt;strong&gt;Postgres&lt;/strong&gt; acompañado de la interfaz web gráfica &lt;strong&gt;pgAdmin&lt;/strong&gt;, todo esto definido y configurado en plataforma &lt;strong&gt;Docker&lt;/strong&gt; a través de un archivo &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;docker-compose.yml&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;Se creará un archivo docker-compose.yml con las instrucciones necesarias para crear dos contenedores, uno para el motor de base de datos Postgres y otro para la interfazweb gráfica pgAdmin, a travérs de la cual se hace el manejo de las bases de datos, tablas, etc., de Postgres.&lt;/p&gt;
 
 </description>
         <pubDate>Thu, 03 Sep 2020 00:00:00 -0500</pubDate>
-        <link>http://0.0.0.0:4000//Postgres-pgAdmin-Docker/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000//Postgres-pgAdmin-Docker/</guid>
+        <link>http://localhost:4000//Postgres-pgAdmin-Docker/</link>
+        <guid isPermaLink="true">http://localhost:4000//Postgres-pgAdmin-Docker/</guid>
         
         
         <category>linux</category>
-        
-        <category>tutorial</category>
-        
-      </item>
-    
-      <item>
-        <title>Comandos simples de Vim</title>
-        <description>&lt;p&gt;&lt;strong&gt;Comandos simples de Vim&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Modo de inserción (En el que se puede escribir como en cualquier editor de textos normal)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Modo de comandos (En el que se puede dar comandos al editor. Se accede al modo de comandos presionando &lt;code class=&quot;highlighter-rouge&quot;&gt;ESC&lt;/code&gt;)&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;La mayoría de los siguientes comandos se dan en modo de comandos&lt;/p&gt;
-
-&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;x&lt;/code&gt; - para borrar caracter&lt;/p&gt;
-
-&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;u&lt;/code&gt; - deshace el último comando y &lt;code class=&quot;highlighter-rouge&quot;&gt;U&lt;/code&gt; deshace la última línea&lt;/p&gt;
-
-&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;CTRL-R&lt;/code&gt; para rehacer (redo)&lt;/p&gt;
-
-&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;A&lt;/code&gt; - agregar texto al final&lt;/p&gt;
-
-&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;:wq&lt;/code&gt; - grabar y salir&lt;/p&gt;
-
-&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;:q!&lt;/code&gt; - salir sin grabar&lt;/p&gt;
-
-&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;dw&lt;/code&gt; - mueve el cursor al inicio de la palabrapara borrar la palabra&lt;/p&gt;
-
-&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;2w&lt;/code&gt; - mueve el cursor 2 palabras hacia adelante&lt;/p&gt;
-
-&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;3e&lt;/code&gt; - mueve el cursor al final de la tercera palabra hacia adelante&lt;/p&gt;
-
-&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;0&lt;/code&gt; (cero) - mueve el cursor al inicio de la línea&lt;/p&gt;
-
-&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;d2w&lt;/code&gt; - borra 2 palabras, se puede cambiar el número para borrar la cantidd de palabras consecutivas, ej. &lt;code class=&quot;highlighter-rouge&quot;&gt;d3w&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;dd&lt;/code&gt; - borra la línea actual y &lt;code class=&quot;highlighter-rouge&quot;&gt;2dd&lt;/code&gt; borra 2 líneas consecutivas&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;El formato para un comando de cambio es: &lt;code class=&quot;highlighter-rouge&quot;&gt;operador [número] acción&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;operador&lt;/strong&gt; - es lo que se desea hacer, tal como d para borrar (delete)&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;[número]&lt;/strong&gt; - es un contador opcional para repetir la acción&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;acción&lt;/strong&gt; - actúa sobre el texto a modificar, tal como &lt;code class=&quot;highlighter-rouge&quot;&gt;w&lt;/code&gt; para palabra (word), &lt;code class=&quot;highlighter-rouge&quot;&gt;$&lt;/code&gt; para fin de línea, etc.&lt;/p&gt;
-
-&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;p&lt;/code&gt; - pega el texto previamente borrado después del cursor (pulsa dd para borrar la línea y almacenbarla en un registro de Vim, y usa el comando p para pegar la línea)&lt;/p&gt;
-
-&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;r&lt;/code&gt; - reemplaza la letra, ej. teclea re para reemplazar la letra con e&lt;/p&gt;
-
-&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;ce&lt;/code&gt; - cambia hasta el final de la palabra (ej., con el cursor en la u de lubw, borrará ubw)&lt;/p&gt;
-
-&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;ce&lt;/code&gt; - borra la palabra y deja en modo de inserción&lt;/p&gt;
-
-&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;G&lt;/code&gt; - mueve el cursor al final del archivo&lt;/p&gt;
-
-&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;gg&lt;/code&gt; - mueve el cursor al inicio del archivo&lt;/p&gt;
-
-&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;:n&lt;/code&gt; - ir a la línea n&lt;/p&gt;
-
-&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;/texto&lt;/code&gt; - buscar texto, n repite la búsqueda&lt;/p&gt;
-
-&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;:s/texto/nuevoTexto/g&lt;/code&gt; - reemplaza texto por nuevoTexto global en el archivo (g)&lt;/p&gt;
-
-&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;?&lt;/code&gt; búsqueda hacia atrás&lt;/p&gt;
-
-&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;:!&lt;/code&gt; para ejecutar comandos de shell, ej. :!ls&lt;/p&gt;
-
-&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;:w&lt;/code&gt; - guarda el archivo&lt;/p&gt;
-
-&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;v&lt;/code&gt; - inicia el modo visual para seleccionar líneas y ejecutar operaciones como d (delete)&lt;/p&gt;
-
-&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;:r&lt;/code&gt; - nombreDeArchivo inserta el contenido del archivo en el archivo actual&lt;/p&gt;
-
-&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;R&lt;/code&gt; - reemplaza más de un caracter&lt;/p&gt;
-
-&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;y&lt;/code&gt; - comando para copiar texto en modo visual y p para pegarlo&lt;/p&gt;
-
-&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;o&lt;/code&gt; - inserta una línea abajo del cursor e inicia el modo de inserción7&lt;/p&gt;
-
-&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;O&lt;/code&gt; - inserta una línea arriba del cursor&lt;/p&gt;
-
-&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;a&lt;/code&gt; - abre el modo de inserción después del cursor&lt;/p&gt;
-
-&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;A&lt;/code&gt; - abre el modo deo inserción al final de la línea&lt;/p&gt;
-
-&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;e&lt;/code&gt; - mueve el cursor al final de la palabra&lt;/p&gt;
-
-&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;y&lt;/code&gt; - copia el texto, p pega el texto&lt;/p&gt;
-
-&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;R&lt;/code&gt; - inicia el modo Replace (Reemplazar) hasta que se presione ESC&lt;/p&gt;
-
-&lt;p&gt;​    &lt;code class=&quot;highlighter-rouge&quot;&gt;ctrl-w&lt;/code&gt; salta entre ventanas&lt;/p&gt;
-
-&lt;p&gt;Para ver todos los comandos que inicien con una letra, escribir &lt;code class=&quot;highlighter-rouge&quot;&gt;:e&lt;/code&gt; y presionar &lt;code class=&quot;highlighter-rouge&quot;&gt;ctrl+D&lt;/code&gt;, después presionr &lt;code class=&quot;highlighter-rouge&quot;&gt;TAB&lt;/code&gt; para completar el comando.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 01 Sep 2020 00:00:00 -0500</pubDate>
-        <link>http://0.0.0.0:4000//Comandos-de-vim/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000//Comandos-de-vim/</guid>
-        
-        
-        <category>linux</category>
-        
-        <category>tutorial</category>
-        
-      </item>
-    
-      <item>
-        <title>Cómo abrir puertos en Linux</title>
-        <description>&lt;p&gt;Para abrir puertos en sistemas  Linux RedHat  y derivados, como  CentOS 7  lo podemos hacer por medio del firewall que viene con estos sistemas, que es &lt;em&gt;firewall-cmd&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;Como primer ejemplo, de la siguiente manera se agrega el puerto 443 por protocolo TCP de manera temporal, lo que significa que esta configuración no se mantendrá después de un reinicio de la máquina o de una recarga del servicio de firewall.&lt;/p&gt;
-&lt;pre class=&quot;wp-block-preformatted&quot;&gt;#  firewall-cmd --zone=public --add-port=443/tcp 
-success&lt;/pre&gt;
-
-&lt;p&gt;Para hacer que la configuración del puerto sea permanente, se debe agregar el parámetro –permanent y recargar la configuración del firewall.&lt;/p&gt;
-
-&lt;pre class=&quot;wp-block-preformatted&quot;&gt;#  firewall-cmd --zone=public --permanent --add-port=443/tcp 
-success&lt;/pre&gt;
-
-&lt;pre class=&quot;wp-block-preformatted&quot;&gt;#  firewall-cmd --reload 
-success&lt;/pre&gt;
-
-&lt;p&gt;Para ver la lista de puertos abiertos actualmente en la zona public, usar el siguiente comando:&lt;/p&gt;
-
-&lt;pre class=&quot;wp-block-preformatted&quot;&gt;#  firewall-cmd --zone=public --list-ports &lt;/pre&gt;
-
-</description>
-        <pubDate>Mon, 31 Aug 2020 00:00:00 -0500</pubDate>
-        <link>http://0.0.0.0:4000//abrir-puertos-en-linux/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000//abrir-puertos-en-linux/</guid>
-        
-        
-        <category>linux</category>
-        
-        <category>tutorial</category>
-        
-      </item>
-    
-      <item>
-        <title>Cómo descargar libros de Lectulandia</title>
-        <description>&lt;h1 id=&quot;cómo-descargar-libros-de-lectulandia&quot;&gt;Cómo descargar libros de Lectulandia&lt;/h1&gt;
-
-&lt;p&gt;Lectulandia es un sitio de compartición de libros electrónicos en español, completo y actualizado, con un catálogo amplio y organizado y que ha estado activo por un tiempo considerable. La deisponibilidad se ha mantenido estable, por lo que es una buena opción para los amantes de la lectura. El sitio tiene los libros de su catálogo en formatos &lt;strong&gt;epub&lt;/strong&gt; y &lt;strong&gt;pdf&lt;/strong&gt;, para lectura en computadoras, tablets, teléfonos y también pueden ser convertidos de formato para leerse en dispositivos &lt;strong&gt;Kindle&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;El sitio presenta algo de dificultad para usuarios no muy versados en procedimientos de varios pasos para la descarga del material de lectura, por lo que presento la manera de descargar los libros, saltando las páginas de anuncios y yendo directamente a las descargas.&lt;/p&gt;
-
-&lt;h2 id=&quot;a-continuación-presento-los-pasos-para-la-descarga-de-libros-desde-lectulandia&quot;&gt;A continuación presento los pasos para la descarga de libros desde Lectulandia:&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Ingresar al sitio &lt;a href=&quot;https://www.lectulandia.co/&quot;&gt;Lectulandia&lt;/a&gt;&lt;/p&gt;
-
-    &lt;p&gt;&lt;img src=&quot;../assets/images/lectulandia1.png&quot; alt=&quot;sitio&quot; /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Busca y selecciona el libro que deseas descargar, por ejemplo, El Principito&lt;/p&gt;
-
-    &lt;p&gt;&lt;img src=&quot;../assets/images/lectulandia2.png&quot; alt=&quot;libro&quot; /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Existen diferentes botones  que indican la liga de descarga de los libros, tanto en formato epub, como en pdf. Los botones correctos para descarga, son los que están el parte de abajo de la portada del libro, que indico en la siguiente imagen:&lt;/p&gt;
-
-    &lt;p&gt;&lt;img src=&quot;../assets/images/lectulandia3.png&quot; alt=&quot;botones&quot; /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Al dar click en el botón de &lt;strong&gt;epub&lt;/strong&gt;, se abrirá un apágina de redirección al sitio de descarga, esta pantalla durará unos segundos abierta y posteriormente se abrirá la página real de descarga.&lt;/p&gt;
-
-    &lt;p&gt;&lt;img src=&quot;../assets/images/lectulandia4.png&quot; alt=&quot;espera&quot; /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;La siguiente es la página de descarga real del libro escogido, atención de dar click en el botón morado del lado derecho que dice “DOWNLOAD NOW”, y no en el botón verde de la parte baja de la pantalla.&lt;/p&gt;
-
-    &lt;p&gt;&lt;img src=&quot;../assets/images/lectulandia6.png&quot; alt=&quot;descarga&quot; /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Se abrirá el diálogo de guardar archivo, seleccionamos guardarlo en el directorio deseado:&lt;/p&gt;
-
-    &lt;p&gt;&lt;img src=&quot;../assets/images/lectulandia7.png&quot; alt=&quot;guardar&quot; /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Abrimos el libro con el lector de e-books que tengamos en nuestro sistema:&lt;/p&gt;
-
-    &lt;p&gt;&lt;img src=&quot;../assets/images/lectulandia9.png&quot; alt=&quot;abrir&quot; /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;&lt;img src=&quot;../assets/images/lectulandia10.png&quot; alt=&quot;texto&quot; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Los libros se pueden descargar en formato &lt;strong&gt;PDF&lt;/strong&gt; o formato &lt;strong&gt;epub&lt;/strong&gt; y ya una vez descargados se pueden abrir en cualquier dispositivo que permita la lectura de &lt;strong&gt;e-books&lt;/strong&gt; en estos formatos.&lt;/p&gt;
-
-&lt;p&gt;Para llevar estos libros a un dispositivo &lt;strong&gt;Kindle&lt;/strong&gt;, ver &lt;a href=&quot;2020-09-01-Comandos-de-vim.md&quot;&gt;Pasar epub a Kindle&lt;/a&gt; donde se describe la conversión de formato necesaria para poder ver libros &lt;strong&gt;epub&lt;/strong&gt; en un dispositivo &lt;strong&gt;Kindle&lt;/strong&gt; de &lt;strong&gt;Amazon&lt;/strong&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 06 Aug 2020 00:00:00 -0500</pubDate>
-        <link>http://0.0.0.0:4000//descargar-libros-de-Lectulandia/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000//descargar-libros-de-Lectulandia/</guid>
-        
         
         <category>tutorial</category>
         

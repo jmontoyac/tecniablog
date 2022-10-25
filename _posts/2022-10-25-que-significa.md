@@ -29,10 +29,10 @@ También se le considera sigla a cada una de las letras que componen el término
 
 ### Ejemplos de siglas
 
-| Siglas      | Significado |
-| ----------- | ----------- |
-| BID   | Banco Interamericano de Desarollo |
-| OEA   | Organización de los Estados Americanos |
+| Siglas     | Significado |
+| ---------- | --------------------------------------------------- |
+| BID        | Banco Interamericano de Desarollo                   |
+| OEA        | Organización de los Estados Americanos              |
 
 
 

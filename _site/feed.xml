@@ -5,15 +5,15 @@
     <description>Este blog contiene mis notas de programación, Linux, DevOps y otras referencias</description>
     <link>http://0.0.0.0:4000//</link>
     <atom:link href="http://0.0.0.0:4000//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 25 Oct 2022 09:55:10 -0500</pubDate>
-    <lastBuildDate>Tue, 25 Oct 2022 09:55:10 -0500</lastBuildDate>
+    <pubDate>Tue, 25 Oct 2022 10:38:35 -0500</pubDate>
+    <lastBuildDate>Tue, 25 Oct 2022 10:38:35 -0500</lastBuildDate>
     <generator>Jekyll v4.3.0</generator>
     
       <item>
         <title>Instalación de Virtualenv para Python</title>
         <description>&lt;h1 id=&quot;virtualenv&quot;&gt;Virtualenv&lt;/h1&gt;
 
-&lt;p&gt;Virtualenv es una herramienta que permite la creación de ambientes aislados de Python para tus proyectos. Éste crea un ambiente que tiene sus propios directorios de instalación, que no comparte dependencias con otros ambientes &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;virtualenv&lt;/code&gt; (y de manera opcional tampoco tiene acceso a las dependencias globales). Taqmbién se puede configurar  qué versión de Python se quiere usar para cada ambiente individual. Es muy recomendable el uso de &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;virtualenv&lt;/code&gt; cuando tratamos con aplicaciones &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Python&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Virtualenv es una herramienta que permite la creación de ambientes aislados de Python para tus proyectos. Éste crea un ambiente que tiene sus propios directorios de instalación, que no comparte dependencias con otros ambientes &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;virtualenv&lt;/code&gt; (y de manera opcional tampoco tiene acceso a las dependencias globales). También se puede configurar qué versión de Python se quiere usar para cada ambiente individual. Es muy recomendable el uso de &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;virtualenv&lt;/code&gt; cuando tratamos con aplicaciones &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Python&lt;/code&gt;.&lt;/p&gt;
 
 &lt;h1 id=&quot;instalación&quot;&gt;Instalación&lt;/h1&gt;
 
@@ -31,7 +31,7 @@
 virtualenv venv
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;Estos comandos vrean un direcorio &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;venv/&lt;/code&gt; dentro del proyecto, en el cual se instalan todas las dependencias. El ambiente virtual necesita ser activado (en cada instancia de la terminal que se esté usando en el proyecto):&lt;/p&gt;
+&lt;p&gt;Estos comandos crean un direcorio &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;venv/&lt;/code&gt; dentro del proyecto, en el cual se instalan todas las dependencias. El ambiente virtual necesita ser activado (en cada instancia de la terminal que se esté usando en el proyecto):&lt;/p&gt;
 
 &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
 &lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nb&quot;&gt;source &lt;/span&gt;venv/bin/activate

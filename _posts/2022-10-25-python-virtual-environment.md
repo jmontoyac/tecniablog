@@ -12,7 +12,7 @@ rating: 4
 
 # Virtualenv
 
-Virtualenv es una herramienta que permite la creación de ambientes aislados de Python para tus proyectos. Éste crea un ambiente que tiene sus propios directorios de instalación, que no comparte dependencias con otros ambientes ```virtualenv``` (y de manera opcional tampoco tiene acceso a las dependencias globales). Taqmbién se puede configurar  qué versión de Python se quiere usar para cada ambiente individual. Es muy recomendable el uso de ```virtualenv``` cuando tratamos con aplicaciones ```Python```.
+Virtualenv es una herramienta que permite la creación de ambientes aislados de Python para tus proyectos. Éste crea un ambiente que tiene sus propios directorios de instalación, que no comparte dependencias con otros ambientes ```virtualenv``` (y de manera opcional tampoco tiene acceso a las dependencias globales). También se puede configurar qué versión de Python se quiere usar para cada ambiente individual. Es muy recomendable el uso de ```virtualenv``` cuando tratamos con aplicaciones ```Python```.
 
 # Instalación
 
@@ -29,7 +29,7 @@ cd my-project/
 virtualenv venv
 ```
 
-Estos comandos vrean un direcorio ```venv/``` dentro del proyecto, en el cual se instalan todas las dependencias. El ambiente virtual necesita ser activado (en cada instancia de la terminal que se esté usando en el proyecto):
+Estos comandos crean un direcorio ```venv/``` dentro del proyecto, en el cual se instalan todas las dependencias. El ambiente virtual necesita ser activado (en cada instancia de la terminal que se esté usando en el proyecto):
 
 ```bash
 source venv/bin/activate

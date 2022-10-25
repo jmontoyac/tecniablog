@@ -3,11 +3,59 @@
   <channel>
     <title>Tecniablog</title>
     <description>Este blog contiene mis notas de programación, Linux, DevOps y otras referencias</description>
-    <link>http://0.0.0.0:4000//</link>
-    <atom:link href="http://0.0.0.0:4000//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 25 Oct 2022 10:38:35 -0500</pubDate>
-    <lastBuildDate>Tue, 25 Oct 2022 10:38:35 -0500</lastBuildDate>
-    <generator>Jekyll v4.3.0</generator>
+    <link>http://localhost:4000//</link>
+    <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 25 Oct 2022 12:04:48 -0500</pubDate>
+    <lastBuildDate>Tue, 25 Oct 2022 12:04:48 -0500</lastBuildDate>
+    <generator>Jekyll v3.9.2</generator>
+    
+      <item>
+        <title>Qué significan abreviaciones, modismos o palabras raras</title>
+        <description>&lt;h1 id=&quot;significado-de-palabra&quot;&gt;Significado de Palabra&lt;/h1&gt;
+
+&lt;p&gt;Qué es la palabra: Una palabra es un &lt;strong&gt;vocablo, una voz, una expresión&lt;/strong&gt;. Etimológicamente, el término deriva del latín &lt;em&gt;parabola&lt;/em&gt;. Desde la lingûística, la palabra es una unidad léxica formada por un sonido o un conjunto de sonidos articulados, que se asocia a uno o varios sentidos, y que posee un acategoría gramatical determinada.
+Asimismo, como palabra también se considera la representación gráfica, por medio de letras o signos, de dichos sonidos.&lt;/p&gt;
+
+&lt;p&gt;Fuente: https://www.significados.com/palabra/&lt;/p&gt;
+
+&lt;h1 id=&quot;siglas-vs-acrónimos&quot;&gt;Siglas vs. acrónimos&lt;/h1&gt;
+
+&lt;p&gt;Tanto las siglas como los acrónimos tienen un mismo fin, y es que las siglas, así como los acrónimos, buscan abreviar una denominación más compleja. Sin embargo, a pesar de que comparten la misma finalidad, lo cierto es que también existen factores que las diferencian entre sí.&lt;/p&gt;
+
+&lt;h2 id=&quot;definición-de-sigla&quot;&gt;Definición de «sigla»&lt;/h2&gt;
+
+&lt;p&gt;La sigla es un signo lingûístico formado generalmente con las letras iniciales de cada uno de los términos que integran una experesón compleja. En otras palabras, también podemos decir que: &lt;strong&gt;la sigla es la simplificación  de un concepto amplio a uno más simple&lt;/strong&gt; con la finlidad de agilizar la comunicación, a la vez que facilita el aprendizaje de dicho término.&lt;/p&gt;
+
+&lt;h1 id=&quot;significado-de-palabras-siglas-o-acrónimos-de-uso-común&quot;&gt;Significado de palabras, siglas o acrónimos de uso común&lt;/h1&gt;
+
+&lt;p&gt;Estos comandos crean un direcorio &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;venv/&lt;/code&gt; dentro del proyecto, en el cual se instalan todas las dependencias. El ambiente virtual necesita ser activado (en cada instancia de la terminal que se esté usando en el proyecto):&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nb&quot;&gt;source &lt;/span&gt;venv/bin/activate
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Al inicio del prompt de la terminal va a a parecer (venv) indicando que se está trabajando dentro de &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;virtualenv&lt;/code&gt;. Cuando se instale algo como esto:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;pip &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &amp;lt;paquete&amp;gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Será instalado en el folder &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;venv&lt;/code&gt; y no hará conflicto con otros proyectos.&lt;/p&gt;
+
+&lt;p&gt;Para salir del ambiente virtual, ejecutar:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;deactivate
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+        <pubDate>Tue, 25 Oct 2022 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000//que-significa/</link>
+        <guid isPermaLink="true">http://localhost:4000//que-significa/</guid>
+        
+        
+        <category>article</category>
+        
+      </item>
     
       <item>
         <title>Instalación de Virtualenv para Python</title>
@@ -52,8 +100,8 @@ virtualenv venv
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 </description>
         <pubDate>Tue, 25 Oct 2022 00:00:00 -0500</pubDate>
-        <link>http://0.0.0.0:4000//python-virtual-environment/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000//python-virtual-environment/</guid>
+        <link>http://localhost:4000//python-virtual-environment/</link>
+        <guid isPermaLink="true">http://localhost:4000//python-virtual-environment/</guid>
         
         
         <category>tutorial</category>
@@ -79,8 +127,8 @@ Este es un procedimiento que encontré para poder emparejarla, es algo así como
 &lt;p&gt;Voila&lt;/p&gt;
 </description>
         <pubDate>Thu, 28 Jan 2021 00:00:00 -0600</pubDate>
-        <link>http://0.0.0.0:4000//mini-jawbone-pair/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000//mini-jawbone-pair/</guid>
+        <link>http://localhost:4000//mini-jawbone-pair/</link>
+        <guid isPermaLink="true">http://localhost:4000//mini-jawbone-pair/</guid>
         
         
         <category>tutorial</category>
@@ -124,8 +172,8 @@ Este es un procedimiento que encontré para poder emparejarla, es algo así como
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 </description>
         <pubDate>Wed, 27 Jan 2021 00:00:00 -0600</pubDate>
-        <link>http://0.0.0.0:4000//ubuntu-sudo-sin-password/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000//ubuntu-sudo-sin-password/</guid>
+        <link>http://localhost:4000//ubuntu-sudo-sin-password/</link>
+        <guid isPermaLink="true">http://localhost:4000//ubuntu-sudo-sin-password/</guid>
         
         
         <category>tutorial</category>
@@ -188,8 +236,8 @@ Este es un procedimiento que encontré para poder emparejarla, es algo así como
 
 </description>
         <pubDate>Wed, 13 Jan 2021 00:00:00 -0600</pubDate>
-        <link>http://0.0.0.0:4000//borrar-history-centos/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000//borrar-history-centos/</guid>
+        <link>http://localhost:4000//borrar-history-centos/</link>
+        <guid isPermaLink="true">http://localhost:4000//borrar-history-centos/</guid>
         
         
         <category>tutorial</category>
@@ -205,8 +253,8 @@ Este es un procedimiento que encontré para poder emparejarla, es algo así como
 &lt;p&gt;A través de &lt;a href=&quot;http://openbinary20.com/2018/03/24/apache-guacamole/&quot;&gt;Guacamole&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 20 Oct 2020 00:00:00 -0500</pubDate>
-        <link>http://0.0.0.0:4000//instalar-guacamole/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000//instalar-guacamole/</guid>
+        <link>http://localhost:4000//instalar-guacamole/</link>
+        <guid isPermaLink="true">http://localhost:4000//instalar-guacamole/</guid>
         
         
         <category>tutorial</category>
@@ -241,8 +289,8 @@ Es normal entonces que evolutivamente esta fobia o miedo siga en nuestros genes 
 &lt;/ul&gt;
 </description>
         <pubDate>Thu, 01 Oct 2020 00:00:00 -0500</pubDate>
-        <link>http://0.0.0.0:4000//que-es-la-tripofobia/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000//que-es-la-tripofobia/</guid>
+        <link>http://localhost:4000//que-es-la-tripofobia/</link>
+        <guid isPermaLink="true">http://localhost:4000//que-es-la-tripofobia/</guid>
         
         
         <category>artículo</category>
@@ -375,8 +423,8 @@ específicos para las diferentes plataformas.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://cfd.sicofi.com.mx/manuales/ManualSicofi33v33.pdf&quot;&gt;https://cfd.sicofi.com.mx/manuales/ManualSicofi33v33.pdf&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 30 Sep 2020 00:00:00 -0500</pubDate>
-        <link>http://0.0.0.0:4000//web-services/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000//web-services/</guid>
+        <link>http://localhost:4000//web-services/</link>
+        <guid isPermaLink="true">http://localhost:4000//web-services/</guid>
         
         
         <category>tutorial</category>
@@ -414,8 +462,8 @@ chmod 644 ~/.ssh/mozilla_rsa.pub
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 </description>
         <pubDate>Tue, 29 Sep 2020 00:00:00 -0500</pubDate>
-        <link>http://0.0.0.0:4000//Permisos-de-llaves-SSH/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000//Permisos-de-llaves-SSH/</guid>
+        <link>http://localhost:4000//Permisos-de-llaves-SSH/</link>
+        <guid isPermaLink="true">http://localhost:4000//Permisos-de-llaves-SSH/</guid>
         
         
         <category>tutorial</category>
@@ -430,29 +478,9 @@ chmod 644 ~/.ssh/mozilla_rsa.pub
 
 </description>
         <pubDate>Tue, 08 Sep 2020 00:00:00 -0500</pubDate>
-        <link>http://0.0.0.0:4000//llevar-epub-a-kindle/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000//llevar-epub-a-kindle/</guid>
+        <link>http://localhost:4000//llevar-epub-a-kindle/</link>
+        <guid isPermaLink="true">http://localhost:4000//llevar-epub-a-kindle/</guid>
         
-        
-        <category>tutorial</category>
-        
-      </item>
-    
-      <item>
-        <title>Ambiente Postgres + pgAdmin + Docker Compose</title>
-        <description>&lt;p&gt;&lt;strong&gt;Ambiente Postgres + pgAdmin + Docker Compose&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;En este artículo se aborda el tema de la creación de un ambiente listo para usarse con &lt;strong&gt;Postgres&lt;/strong&gt; acompañado de la interfaz web gráfica &lt;strong&gt;pgAdmin&lt;/strong&gt;, todo esto definido y configurado en plataforma &lt;strong&gt;Docker&lt;/strong&gt; a través de un archivo &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;docker-compose.yml&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Se creará un archivo docker-compose.yml con las instrucciones necesarias para crear dos contenedores, uno para el motor de base de datos Postgres y otro para la interfazweb gráfica pgAdmin, a travérs de la cual se hace el manejo de las bases de datos, tablas, etc., de Postgres.&lt;/p&gt;
-
-</description>
-        <pubDate>Thu, 03 Sep 2020 00:00:00 -0500</pubDate>
-        <link>http://0.0.0.0:4000//Postgres-pgAdmin-Docker/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000//Postgres-pgAdmin-Docker/</guid>
-        
-        
-        <category>linux</category>
         
         <category>tutorial</category>
         

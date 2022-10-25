@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Qué significan abreviaciones, modismos o palabras raras"
+title:  "Qué significan abreviaciones, modismos o palabras comunes que desconocemos su significado"
 author: jay
 categories: [ article ]
 image: assets/images/acronym.jpg
@@ -36,6 +36,18 @@ También se le considera sigla a cada una de las letras que componen el término
 | OEA        | Organización de los Estados Americanos              |
 
 
+## Definición de <<acrónimo>>
+
+El término 'acrónimo' tiene dos definiciones; por uyn lado tenemos que un acrónimo es una sigla que puede pronunciarse como una sola palabra -'Unesco' es un ejemplo de ello-, de este modo existen palabras que se les considera tanto siglas como acrónimos. Por otro lado, puede ser un vocablo formado al unir parte de dos palabras que funden dos elementos léxicos tomado, casi siempre, el primer elemento el iniciio y el segundo el final, como bit (Binary digit) o transistor (Transfer resistor).
+
+### Ejemplos de acrónimos
+
+{:class="table table-bordered"}
+| Acrónimo   | Significado |
+| ---------- | ----------------------------------------------------- |
+| Concacaf   | Confederation Of North, Central America and Caribbean
+|              Association Football                                  |
+| Ovni       | Objeto Volador No Identificado                        |
 
 # Significado de palabras, siglas o acrónimos de uso común
 

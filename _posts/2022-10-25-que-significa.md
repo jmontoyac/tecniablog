@@ -25,26 +25,17 @@ Tanto las siglas como los acrónimos tienen un mismo fin, y es que las siglas, a
 
 La sigla es un signo lingûístico formado generalmente con las letras iniciales de cada uno de los términos que integran una experesón compleja. En otras palabras, también podemos decir que: **la sigla es la simplificación  de un concepto amplio a uno más simple** con la finlidad de agilizar la comunicación, a la vez que facilita el aprendizaje de dicho término.
 
+También se le considera sigla a cada una de las letras que componen el término simplificado, tomando como ejemplo <<ONG>> (Organización No Gubernamental), tanto la palabra en sí, como las 3 letras que componen dicha palabra se les conoce como sigla. Es así que podemos afirmar que la sigla <<ONG>> está compuesta por tres siglas.
+
+### Ejemplos de siglas
+
+| Siglas      | Significado |
+| ----------- | ----------- |
+| BID   | Banco Interamericano de Desarollo |
+| OEA   | Organización de los Estados Americanos |
+
 
 
 # Significado de palabras, siglas o acrónimos de uso común
 
-Estos comandos crean un direcorio ```venv/``` dentro del proyecto, en el cual se instalan todas las dependencias. El ambiente virtual necesita ser activado (en cada instancia de la terminal que se esté usando en el proyecto):
 
-```bash
-source venv/bin/activate
-```
-
-Al inicio del prompt de la terminal va a a parecer (venv) indicando que se está trabajando dentro de ```virtualenv```. Cuando se instale algo como esto:
-
-```bash
-pip install <paquete>
-```
-
-Será instalado en el folder ```venv``` y no hará conflicto con otros proyectos.
-
-Para salir del ambiente virtual, ejecutar:
-
-```bash
-deactivate
-```

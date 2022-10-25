@@ -46,10 +46,26 @@ El término 'acrónimo' tiene dos definiciones; por uyn lado tenemos que un acr�
 | Acrónimo   | Significado |
 | ---------- | ----------------------------------------------------- |
 | Concacaf   | Confederation Of North, Central America and Caribbean |
-|              Association Football                                  |
+|            | Association Football                                  |
 | Ovni       | Objeto Volador No Identificado                        |
 | Sida       | Síndrome de Inmunodeficiencia Adquirida               |
 
 # Significado de palabras, siglas o acrónimos de uso común
 
+Lista de palabras, siglas o acrónimos que encuentro interesantes de dejar documentados por su uso común:
 
+{:class="table table-bordered"}
+| Palabra   | Significado |
+| ---------- | ----------------------------------------------------- |
+| Concacaf   | Confederation Of North, Central America and Caribbean |
+|            | Association Football                                  |
+| GPI        | Gracias Por Invitar                                   |
+| GAD        | Gracias A Dios                                        |
+| IMSS       | Instituto Mexicano del Seguro Social                  |
+| LASER      | Light Amplification by Stimulated Emission of         |
+|            | Radiation                        |
+| LOL        | Laughing Out Loud                                     |
+| Nashe      | Expresión positiva para referirse a algo importante   |
+| ONU        | Organización de las NAciones Unidas                   |
+| Ovni       | Objeto Volador No Identificado                        |
+| Sida       | Síndrome de Inmunodeficiencia Adquirida               |

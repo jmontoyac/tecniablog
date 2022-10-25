@@ -55,17 +55,27 @@ El término 'acrónimo' tiene dos definiciones; por uyn lado tenemos que un acr�
 Lista de palabras, siglas o acrónimos que encuentro interesantes de dejar documentados por su uso común:
 
 {:class="table table-bordered"}
-| Palabra   | Significado |
+| Palabra    | Significado |
 | ---------- | ----------------------------------------------------- |
+| CD         | Compact Disc                                          |
+| CIA        | Central Intelligence Agency                           |
 | Concacaf   | Confederation Of North, Central America and Caribbean |
 |            | Association Football                                  |
 | GPI        | Gracias Por Invitar                                   |
 | GAD        | Gracias A Dios                                        |
+| HDMI       | High Definition Multimedia Interface                  |
 | IMSS       | Instituto Mexicano del Seguro Social                  |
-| LASER      | Light Amplification by Stimulated Emission of         |
-|            | Radiation                        |
+| INE        | Instituto Nacional Electoral                          |
+| ISSSTE     | Instituto de Salud y Seguridad Social para los        |
+|            | Trabajadores del Estado                               |
+| LASER      | Light Amplification by Stimulated Emission of Radiation|
 | LOL        | Laughing Out Loud                                     |
+| Mangina    | Poco hombre, mezcla de 'Man' y 'Vagina'               |
 | Nashe      | Expresión positiva para referirse a algo importante   |
-| ONU        | Organización de las NAciones Unidas                   |
-| Ovni       | Objeto Volador No Identificado                        |
+| ONU        | Organización de las Naciones Unidas                   |
+| OVNI       | Objeto Volador No Identificado                        |
+| RFC        | Registro Federal de Contribuyentes                    |
+| SAT        | Servicio de Administración Tributaria                 |
 | Sida       | Síndrome de Inmunodeficiencia Adquirida               |
+| UFO        | Unknown Flying Object                                 |
+| WIFI       | Wireless Fidelity                                     |

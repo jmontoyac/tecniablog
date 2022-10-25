@@ -16,17 +16,17 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Virtualenv" />
 <meta property="og:description" content="Virtualenv" />
-<link rel="canonical" href="http://localhost:4000/python-virtual-environment/" />
-<meta property="og:url" content="http://localhost:4000/python-virtual-environment/" />
+<link rel="canonical" href="http://0.0.0.0:4000/python-virtual-environment/" />
+<meta property="og:url" content="http://0.0.0.0:4000/python-virtual-environment/" />
 <meta property="og:site_name" content="Tecniablog" />
-<meta property="og:image" content="http://localhost:4000/assets/images/python-virtual-environments.png" />
+<meta property="og:image" content="http://0.0.0.0:4000/assets/images/python-virtual-environments.png" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2022-10-25T00:00:00-05:00" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta property="twitter:image" content="http://localhost:4000/assets/images/python-virtual-environments.png" />
+<meta property="twitter:image" content="http://0.0.0.0:4000/assets/images/python-virtual-environments.png" />
 <meta property="twitter:title" content="Instalación de Virtualenv para Python" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"jay"},"dateModified":"2022-10-25T00:00:00-05:00","datePublished":"2022-10-25T00:00:00-05:00","description":"Virtualenv","headline":"Instalación de Virtualenv para Python","image":"http://localhost:4000/assets/images/python-virtual-environments.png","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/python-virtual-environment/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/TecniaLogo.png"},"name":"jay"},"url":"http://localhost:4000/python-virtual-environment/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"jay"},"dateModified":"2022-10-25T00:00:00-05:00","datePublished":"2022-10-25T00:00:00-05:00","description":"Virtualenv","headline":"Instalación de Virtualenv para Python","image":"http://0.0.0.0:4000/assets/images/python-virtual-environments.png","mainEntityOfPage":{"@type":"WebPage","@id":"http://0.0.0.0:4000/python-virtual-environment/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://0.0.0.0:4000/assets/images/TecniaLogo.png"},"name":"jay"},"url":"http://0.0.0.0:4000/python-virtual-environment/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -161,19 +161,19 @@
     </p>
     <ul>
         <li class="ml-1 mr-1">
-            <a target="_blank" href="https://twitter.com/intent/tweet?text=Instalación de Virtualenv para Python&url=http://localhost:4000/python-virtual-environment/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+            <a target="_blank" href="https://twitter.com/intent/tweet?text=Instalación de Virtualenv para Python&url=http://0.0.0.0:4000/python-virtual-environment/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                 <i class="fab fa-twitter"></i>
             </a>
         </li>
 
         <li class="ml-1 mr-1">
-            <a target="_blank" href="https://facebook.com/sharer.php?u=http://localhost:4000/python-virtual-environment/" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;">
+            <a target="_blank" href="https://facebook.com/sharer.php?u=http://0.0.0.0:4000/python-virtual-environment/" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;">
                 <i class="fab fa-facebook-f"></i>
             </a>
         </li>
 
         <li class="ml-1 mr-1">
-            <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/python-virtual-environment/" onclick="window.open(this.href, 'width=550,height=435');return false;">
+            <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=http://0.0.0.0:4000/python-virtual-environment/" onclick="window.open(this.href, 'width=550,height=435');return false;">
                 <i class="fab fa-linkedin-in"></i>
             </a>
         </li>
@@ -252,42 +252,43 @@
                 <!-- End Toc -->
                 <h1 id="virtualenv">Virtualenv</h1>
 
-<p>Virtualenv es una herramienta que permite la creación de ambientes aislados de Python para tus proyectos. Éste crea un ambiente que tiene sus propios directorios de instalación, que no comparte dependencias con otros ambientes virtualenv (y de manera opcional tampoco tiene acceso a las dependencias globales). Taqmbién se puede configurar  qué versión de Python se quiere usar para cada ambiente individual. Es muy recomendable el uso de ´´´virtualenv´´´ cuando tratamos con aplicaciones Python.</p>
+<p>Virtualenv es una herramienta que permite la creación de ambientes aislados de Python para tus proyectos. Éste crea un ambiente que tiene sus propios directorios de instalación, que no comparte dependencias con otros ambientes <code class="language-plaintext highlighter-rouge">virtualenv</code> (y de manera opcional tampoco tiene acceso a las dependencias globales). Taqmbién se puede configurar  qué versión de Python se quiere usar para cada ambiente individual. Es muy recomendable el uso de <code class="language-plaintext highlighter-rouge">virtualenv</code> cuando tratamos con aplicaciones <code class="language-plaintext highlighter-rouge">Python</code>.</p>
 
 <h1 id="instalación">Instalación</h1>
 
-<p>Para instalar virtualenv, ejecutar:
-´´´
-pip install virtualenv
-´´´</p>
+<p>Para instalar virtualenv, ejecutar:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>pip <span class="nb">install </span>virtualenv
+</pre></td></tr></tbody></table></code></pre></div></div>
 
 <h1 id="uso">Uso</h1>
 
-<p>Si se tiene un proyecto llamado por ejemplo my-project se puede configurar virtualenv para ese proyecto ejecutando:
-´´´
-cd my-project/
+<p>Si se tiene un proyecto llamado por ejemplo my-project se puede configurar <code class="language-plaintext highlighter-rouge">virtualenv</code> para ese proyecto ejecutando:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre><span class="nb">cd </span>my-project/
 virtualenv venv
-´´´</p>
+</pre></td></tr></tbody></table></code></pre></div></div>
 
-<p>Estos comandos vrean un direcorio ´´´venv/´´´ dentro del proyecto, en el cual se instalan todas las dependencias. El ambiente virtual necesita ser activado (en cada instancia de la terminal que se esté usando en el proyecto):</p>
+<p>Estos comandos vrean un direcorio <code class="language-plaintext highlighter-rouge">venv/</code> dentro del proyecto, en el cual se instalan todas las dependencias. El ambiente virtual necesita ser activado (en cada instancia de la terminal que se esté usando en el proyecto):</p>
 
-<p>´´´
-source venv/bin/activate
-´´´</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="nb">source </span>venv/bin/activate
+</pre></td></tr></tbody></table></code></pre></div></div>
 
-<p>Al inicio del prompt de la terminal va a a parecer (venv) indicando que se está trabajando dentro de ´´´virtualenv´´´. Cuando se instale algo como esto:</p>
+<p>Al inicio del prompt de la terminal va a a parecer (venv) indicando que se está trabajando dentro de <code class="language-plaintext highlighter-rouge">virtualenv</code>. Cuando se instale algo como esto:</p>
 
-<p>´´´
-pip install <paquete>
-´´´</paquete></p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>pip <span class="nb">install</span> &lt;paquete&gt;
+</pre></td></tr></tbody></table></code></pre></div></div>
 
-<p>Será instalado en el folder ´´´venv´´´ y no hará conflicto con otros proyectos.</p>
+<p>Será instalado en el folder <code class="language-plaintext highlighter-rouge">venv</code> y no hará conflicto con otros proyectos.</p>
 
 <p>Para salir del ambiente virtual, ejecutar:</p>
 
-<p>´´´
-deactivate
-´´´</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>deactivate
+</pre></td></tr></tbody></table></code></pre></div></div>
 
             </div>
 

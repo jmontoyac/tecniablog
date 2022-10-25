@@ -45,9 +45,10 @@ El término 'acrónimo' tiene dos definiciones; por uyn lado tenemos que un acr�
 {:class="table table-bordered"}
 | Acrónimo   | Significado |
 | ---------- | ----------------------------------------------------- |
-| Concacaf   | Confederation Of North, Central America and Caribbean
+| Concacaf   | Confederation Of North, Central America and Caribbean |
 |              Association Football                                  |
 | Ovni       | Objeto Volador No Identificado                        |
+| Sida       | Síndrome de Inmunodeficiencia Adquirida               |
 
 # Significado de palabras, siglas o acrónimos de uso común
 

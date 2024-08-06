@@ -5,7 +5,7 @@ description: "Este blog contiene mis notas de programación, Linux, DevOps y otr
 logo: 'assets/images/TecniaLogo.png'
 favicon: 'favicon.ico'
 baseurl: /
-google_analytics: "UA-101880560-2"
+google_analytics: "G-P052V0XSE1"
 disqus: 'jmontoyac@gmail.com'
 mailchimp-list: 
 include: ["_pages", "_includes"]

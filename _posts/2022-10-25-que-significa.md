@@ -61,6 +61,7 @@ Lista de palabras, siglas o acrónimos que encuentro interesantes de dejar docum
 | CIA        | Central Intelligence Agency                           |
 | Concacaf   | Confederation Of North, Central America and Caribbean |
 |            | Association Football                                  |
+| DVD        | Digital Video Disk                                    |
 | GPI        | Gracias Por Invitar                                   |
 | GAD        | Gracias A Dios                                        |
 | HDMI       | High Definition Multimedia Interface                  |
@@ -76,6 +77,6 @@ Lista de palabras, siglas o acrónimos que encuentro interesantes de dejar docum
 | OVNI       | Objeto Volador No Identificado                        |
 | RFC        | Registro Federal de Contribuyentes                    |
 | SAT        | Servicio de Administración Tributaria                 |
-| Sida       | Síndrome de Inmunodeficiencia Adquirida               |
+| SIDA       | Síndrome de Inmunodeficiencia Adquirida               |
 | UFO        | Unknown Flying Object                                 |
 | WIFI       | Wireless Fidelity                                     |
